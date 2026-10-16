@@ -116,12 +116,17 @@ def main() -> None:
     ap.add_argument("--groups", nargs="+", default=["A", "B", "C"],
                     choices=["A", "B", "C"])
     ap.add_argument("--data", default="data")
+    ap.add_argument("--test-file", default="", help="默认 data/test.jsonl")
+    ap.add_argument("--meta-file", default="", help="默认 data/test_meta.jsonl")
     ap.add_argument("--limit", type=int, default=0, help="只评前 N 条（冒烟用）")
     ap.add_argument("--out", default="results/eval_report.md")
+    ap.add_argument("--dump", default="", help="原始输出转储路径（json，供 verify.py）")
     args = ap.parse_args()
 
-    rows = load_jsonl(f"{args.data}/test.jsonl")
-    meta = load_jsonl(f"{args.data}/test_meta.jsonl")
+    test_file = args.test_file or f"{args.data}/test.jsonl"
+    meta_file = args.meta_file or f"{args.data}/test_meta.jsonl"
+    rows = load_jsonl(test_file)
+    meta = load_jsonl(meta_file)
     train = load_jsonl(f"{args.data}/train.jsonl")
     assert [r["prompt"] for r in rows] == [m["prompt"] for m in meta], "test/meta 不对齐"
     if args.limit:
@@ -152,6 +157,25 @@ def main() -> None:
 
     for g, r in results.items():
         print(f"group {g}: exact={r['exact']:.1%} fragment={r['fragment']:.1%} (n={r['n']})")
+
+    if args.dump:
+        payload = {
+            "groups": args.groups,
+            "test_file": test_file,
+            "rows": [
+                {
+                    "prompt": m["prompt"],
+                    "ref": m["completion"],
+                    "category": m.get("category", ""),
+                    "speech": m.get("speech", ""),
+                    "outputs": {g: outputs[g][i] for g in outputs},
+                }
+                for i, m in enumerate(meta)
+            ],
+        }
+        with open(args.dump, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=1)
+        print(f"原始输出已转储 {args.dump}")
 
     write_report(args.out, results, rows, meta, outputs)
 
