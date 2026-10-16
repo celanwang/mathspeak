@@ -1,0 +1,661 @@
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 b! 代入原式，即可求解。", "completion": "把 b 的阶乘代入原式，就可以求解了。", "category": "factorial", "rule_ref": "将 b 的阶乘 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\begin{vmatrix} n & 1 \\\\ 2 & a \\end{vmatrix}。", "completion": "注意到 行列式，第一列 n 和 1，第二列 2 和 a。", "category": "determinant", "rule_ref": "注意到 行列式，第 一 行 n、一，第 二 行 二、a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 g(n) = n^2，所以选 D。", "completion": "原式可以化简为 g 括号 n 等于 n 的平方，所以选择 D。", "category": "function", "rule_ref": "原式可化为 g n 等于 n 平方，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\vec{a}。", "completion": "注意到 向量 a。", "category": "vector", "rule_ref": "注意到 向量 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\emptyset。", "completion": "代入得 空集。", "category": "set", "rule_ref": "代入得 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\begin{vmatrix} 6 & 1 \\\\ 9 & 2 \\end{vmatrix}。", "completion": "接下来计算 行列式，六、一，九、二。", "category": "determinant", "rule_ref": "接下来计算 行列式，第 一 行 六、一，第 二 行 九、二。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 B \\cap A。", "completion": "根据题意，B 与 A 的交集。", "category": "set", "rule_ref": "根据题意得 B 交 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\binom{5}{2} 可知，答案选 B。", "completion": "由五选二组合数可知，答案选择 B。", "category": "binom", "rule_ref": "由 五 取 二 的组合数 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 A \\cup C。", "completion": "根据题意，A 与 C 的并集。", "category": "set", "rule_ref": "根据题意得 A 并 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 CD \\perp EF。", "completion": "这一步要注意 CD 垂直于 EF。", "category": "geometry", "rule_ref": "这一步要注意 C D 垂直于 E F。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\begin{pmatrix} 1 & 9 & 6 \\\\ 8 & 9 & 8 \\end{pmatrix}。", "completion": "解得 矩阵，第 一 行 一、九、六，第 二 行 八、九、八。", "category": "matrix", "rule_ref": "解得 矩阵，第 一 行 一、九、六，第 二 行 八、九、八。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\begin{pmatrix} x & x \\\\ x & c \\end{pmatrix}。", "completion": "这一步要注意 矩阵，第一行 x、x，第二行 x、c。", "category": "matrix", "rule_ref": "这一步要注意 矩阵，第 一 行 x、x，第 二 行 x、c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\log_{2} 5。", "completion": "于是 以二为底五的对数。", "category": "log", "rule_ref": "于是 以 二 为底 五 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\overrightarrow{MN} 代入原式，即可求解。", "completion": "将向量 MN 代入原式，就可以求解了。", "category": "vector", "rule_ref": "将 向量 M N 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\begin{pmatrix} a & y \\\\ x & x \\end{pmatrix}。", "completion": "注意到 矩阵，第 一 行 a、y，第 二 行 x、x。", "category": "matrix", "rule_ref": "注意到 矩阵，第 一 行 a、y，第 二 行 x、x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\binom{a}{x}。", "completion": "解得 组合数，a 取 x。", "category": "binom", "rule_ref": "解得 a 取 x 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\begin{vmatrix} 2 & 3 \\\\ a & b \\end{vmatrix}。", "completion": "即 行列式，第一行二、三，第二行 a、b。", "category": "determinant", "rule_ref": "即 行列式，第 一 行 二、三，第 二 行 a、b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 20\\%。", "completion": "这一步要注意 百分之 二零。", "category": "percent", "rule_ref": "这一步要注意 百分之 二零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 3! 可求出结果。", "completion": "根据公式 三的阶乘，可以求出结果。", "category": "factorial", "rule_ref": "根据公式 三 的阶乘 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\binom{y}{n}。", "completion": "解得 y 选 n 的组合数。", "category": "binom", "rule_ref": "解得 y 取 n 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 10\\%，所以选 B。", "completion": "因为 百分之 十，所以选择 B。", "category": "percent", "rule_ref": "因为 百分之 一零，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\binom{5}{2} 代入原式，即可求解。", "completion": "将 五选二 的组合数 代入原式，就可以求解了。", "category": "binom", "rule_ref": "将 五 取 二 的组合数 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\triangle ABC \\cong \\triangle PQR。", "completion": "即 三角形 ABC 全等于 三角形 PQR。", "category": "geometry", "rule_ref": "即 三角形 A B C 全等于 三角形 P Q R。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\begin{pmatrix} 5 & 3 & 6 \\\\ 5 & 8 & 3 \\end{pmatrix}。", "completion": "即 矩阵，第一行五、三、六，第二行五、八、三。", "category": "matrix", "rule_ref": "即 矩阵，第 一 行 五、三、六，第 二 行 五、八、三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 f(a^2)。", "completion": "由此可知 f 括号 a 的平方。", "category": "function", "rule_ref": "由此可知 f a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\vec{c}。", "completion": "于是 向量 c。", "category": "vector", "rule_ref": "于是 向量 c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 80\\%，所以选 A。", "completion": "因为百分之八十，所以选择 A。", "category": "percent", "rule_ref": "因为 百分之 八零，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\vec{n}，所以选 A。", "completion": "因为 向量 n，所以选择 A。", "category": "vector", "rule_ref": "因为 向量 n，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\log_{2} 6。", "completion": "代入得 以二为底六的对数。", "category": "log", "rule_ref": "代入得 以 二 为底 六 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 6\\% 可求出结果。", "completion": "根据公式百分之六，可以求出结果。", "category": "percent", "rule_ref": "根据公式 百分之 六 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\emptyset，所以选 D。", "completion": "因为 空集，所以选择 D。", "category": "set", "rule_ref": "因为 空集，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\vec{n}。", "completion": "由此可知 向量 n。", "category": "vector", "rule_ref": "由此可知 向量 n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\lim_{n \\to 0} \\frac{\\sin n}{n}。", "completion": "即 当 n 趋向于 零 时，n 分之 sin n 的极限。", "category": "limit", "rule_ref": "即 当 n 趋向于 零 时，n 分之 sin n 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\emptyset。", "completion": "整理得 空集。", "category": "set", "rule_ref": "整理得 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 AB \\perp EF。", "completion": "接下来计算 AB 与 EF 互相垂直。", "category": "geometry", "rule_ref": "接下来计算 A B 垂直于 E F。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\emptyset 可求出结果。", "completion": "根据公式 空集 可以求出结果。", "category": "set", "rule_ref": "根据公式 空集 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 5!。", "completion": "最终得到 五 的阶乘。", "category": "factorial", "rule_ref": "最终得到 五 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\begin{bmatrix} y & n \\\\ c & n \\end{bmatrix}，所以选 C。", "completion": "原式可以化简成 矩阵，第一行 y 和 n，第二行 c 和 n，所以选择 C。", "category": "matrix", "rule_ref": "原式可化为 矩阵，第 一 行 y、n，第 二 行 c、n，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 x \\in \\mathbb{R}。", "completion": "接下来计算 当 x 属于 实数集 时。", "category": "set", "rule_ref": "接下来计算 x 属于 实数集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 59\\%，所以选 D。", "completion": "原式可以化为百分之 五十九，所以选择 D。", "category": "percent", "rule_ref": "原式可化为 百分之 五九，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\lim_{y \\to 1} \\frac{y^2 - 1}{y}。", "completion": "注意到 当 y 趋向于 一 时，y 的平方减一 除以 y 的极限。", "category": "limit", "rule_ref": "注意到 当 y 趋向于 一 时，y 分之 y 减 一 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 g(a) = a^2。", "completion": "化简之后，g(a) 等于 a 的平方。", "category": "function", "rule_ref": "化简可得 g a 等于 a 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 x!。", "completion": "联立可得 x 的阶乘。", "category": "factorial", "rule_ref": "联立可得 x 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\binom{c}{a}。", "completion": "于是 c 选 a 的组合数。", "category": "binom", "rule_ref": "于是 c 取 a 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\log_{2} 6，所以选 B。", "completion": "原式可以化简为 以二为底六的对数，所以选择 B。", "category": "log", "rule_ref": "原式可化为 以 二 为底 六 的对数，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\overrightarrow{PQ}。", "completion": "接下来计算 向量 PQ。", "category": "vector", "rule_ref": "接下来计算 向量 P Q。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\lim_{n \\to 2} \\frac{\\sin n}{n}。", "completion": "最终得到 当 n 趋向于 二 时，n 分之 sin n 的极限。", "category": "limit", "rule_ref": "最终得到 当 n 趋向于 二 时，n 分之 sin n 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\log_{3} 7。", "completion": "代入得 以三为底七的对数。", "category": "log", "rule_ref": "代入得 以 三 为底 七 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 f(n + 1)。", "completion": "这一步要注意 f 括号 n 加一。", "category": "function", "rule_ref": "这一步要注意 f n 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 AB \\perp CD，所以选 C。", "completion": "原式可以化简为 AB 垂直于 CD，所以选择 C。", "category": "geometry", "rule_ref": "原式可化为 A B 垂直于 C D，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 f(2a)。", "completion": "解得 f 括号二 a 括号。", "category": "function", "rule_ref": "解得 f 二 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\vec{a} 可知，答案选 C。", "completion": "由向量 a 可知，答案选择 C。", "category": "vector", "rule_ref": "由 向量 a 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\begin{vmatrix} 3 & 3 \\\\ 7 & 1 \\end{vmatrix}。", "completion": "即 行列式，第一行三、三，第二行七、一。", "category": "determinant", "rule_ref": "即 行列式，第 一 行 三、三，第 二 行 七、一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\overrightarrow{AB}。", "completion": "解得 向量 AB。", "category": "vector", "rule_ref": "解得 向量 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 a!。", "completion": "联立可得 a 的阶乘。", "category": "factorial", "rule_ref": "联立可得 a 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\overrightarrow{AB} 可知，答案选 C。", "completion": "由向量 AB 可知，答案选择 C。", "category": "vector", "rule_ref": "由 向量 A B 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\lim_{x \\to 4} \\frac{\\sin x}{x}。", "completion": "整理得 当 x 趋向于 四 时，x 分之 sin x 的极限。", "category": "limit", "rule_ref": "整理得 当 x 趋向于 四 时，x 分之 sin x 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\begin{vmatrix} 9 & n \\\\ b & 3 \\end{vmatrix} 可求出结果。", "completion": "根据公式 行列式，九、n，b、三，可以求出结果。", "category": "determinant", "rule_ref": "根据公式 行列式，第 一 行 九、n，第 二 行 b、三 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\vec{y}。", "completion": "化简可得 向量 y。", "category": "vector", "rule_ref": "化简可得 向量 y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\log_{3} 2 可求出结果。", "completion": "根据公式 以三为底二的对数，可以求出结果。", "category": "log", "rule_ref": "根据公式 以 三 为底 二 的对数 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 h(b^2)。", "completion": "整理得 h 乘以 b 的平方。", "category": "function", "rule_ref": "整理得 h b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\binom{9}{3}。", "completion": "联立可得 从九个里面选三个的组合数。", "category": "binom", "rule_ref": "联立可得 九 取 三 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\binom{x}{n}。", "completion": "联立可得 x 选 n 的组合数。", "category": "binom", "rule_ref": "联立可得 x 取 n 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\log_{2} 6。", "completion": "最终得到 以二为底六的对数。", "category": "log", "rule_ref": "最终得到 以 二 为底 六 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\binom{x}{a}。", "completion": "代入得 x 选 a 的组合数。", "category": "binom", "rule_ref": "代入得 x 取 a 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\ln a。", "completion": "最终得到 以 a 为底的对数。", "category": "log", "rule_ref": "最终得到 a 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\binom{n}{y}。", "completion": "接下来计算 从 n 个里面选 y 个的组合数。", "category": "binom", "rule_ref": "接下来计算 n 取 y 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\vec{a} 可知，答案选 D。", "completion": "由向量 a 可知，答案选择 D。", "category": "vector", "rule_ref": "由 向量 a 可知，答案选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\lim_{c \\to 2} \\frac{c^2 - 2}{c}。", "completion": "整理得 当 c 趋向于 二 时，c 的平方减二 除以 c 的极限。", "category": "limit", "rule_ref": "整理得 当 c 趋向于 二 时，c 分之 c 减 二 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\vec{c}。", "completion": "代入得 向量 c。", "category": "vector", "rule_ref": "代入得 向量 c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\binom{9}{2}，所以选 C。", "completion": "原式可以化简为 九选二的组合数，所以选择 C。", "category": "binom", "rule_ref": "原式可化为 九 取 二 的组合数，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 h(c) = c^2 代入原式，即可求解。", "completion": "将 h(c) 等于 c 的平方 代入原式，就可以求解了。", "category": "function", "rule_ref": "将 h c 等于 c 平方 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 83\\%。", "completion": "这一步要注意 百分之 八十三。", "category": "percent", "rule_ref": "这一步要注意 百分之 八三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\binom{n}{y} 代入原式，即可求解。", "completion": "将组合数 n 选 y 代入原式，就可以求解了。", "category": "binom", "rule_ref": "将 n 取 y 的组合数 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 B \\cup C。", "completion": "整理得 B 并上 C。", "category": "set", "rule_ref": "整理得 B 并 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{vmatrix} 3 & 9 \\\\ 8 & n \\end{vmatrix}。", "completion": "根据题意，行列式，第一行三、九，第二行八、n。", "category": "determinant", "rule_ref": "根据题意得 行列式，第 一 行 三、九，第 二 行 八、n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\vec{b}。", "completion": "两边化简后得到 向量 b。", "category": "vector", "rule_ref": "两边化简后得 向量 b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 y! 可求出结果。", "completion": "根据公式 y 的阶乘，可以求出结果。", "category": "factorial", "rule_ref": "根据公式 y 的阶乘 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 a! 可求出结果。", "completion": "根据公式 a 的阶乘，可以求出结果。", "category": "factorial", "rule_ref": "根据公式 a 的阶乘 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\lim_{b \\to 4} \\frac{b^2 - 4}{b}。", "completion": "注意到 当 b 趋向于 四 时，b 的平方减四 除以 b 的极限。", "category": "limit", "rule_ref": "注意到 当 b 趋向于 四 时，b 分之 b 减 四 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 f(x^2)。", "completion": "根据题意，函数 f 作用于 x 的平方。", "category": "function", "rule_ref": "根据题意得 f x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\lim_{a \\to 0} \\frac{\\sin a}{a}。", "completion": "代入得 当 a 趋向于 零 时，a 分之 sin a 的极限。", "category": "limit", "rule_ref": "代入得 当 a 趋向于 零 时，a 分之 sin a 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\vec{b}。", "completion": "联立可得 向量 b。", "category": "vector", "rule_ref": "联立可得 向量 b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\begin{vmatrix} 5 & c \\\\ 3 & n \\end{vmatrix} 可求出结果。", "completion": "根据公式 行列式，五、c，三、n，可以求出结果。", "category": "determinant", "rule_ref": "根据公式 行列式，第 一 行 五、c，第 二 行 三、n 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\begin{vmatrix} 2 & 7 \\\\ c & b \\end{vmatrix}。", "completion": "最终得到 行列式，第一行二、七，第二行 c、b。", "category": "determinant", "rule_ref": "最终得到 行列式，第 一 行 二、七，第 二 行 c、b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\log_{2} 6，所以选 A。", "completion": "因为以二为底六的对数，所以选择 A。", "category": "log", "rule_ref": "因为 以 二 为底 六 的对数，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\overrightarrow{MN}。", "completion": "最终得到 向量 M N。", "category": "vector", "rule_ref": "最终得到 向量 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 h(y) = y^2。", "completion": "这一步要注意 h(y) 等于 y 的平方。", "category": "function", "rule_ref": "这一步要注意 h y 等于 y 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\lim_{c \\to 3} \\frac{\\sin c}{c} 可求出结果。", "completion": "根据公式 当 c 趋向于 三 时，c 分之 sin c 的极限，可以求出结果。", "category": "limit", "rule_ref": "根据公式 当 c 趋向于 三 时，c 分之 sin c 的极限 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 EF \\parallel AB，所以选 D。", "completion": "因为 EF 平行于 AB，所以选择 D。", "category": "geometry", "rule_ref": "因为 E F 平行于 A B，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\begin{pmatrix} x & b \\\\ a & y \\end{pmatrix}。", "completion": "代入得 矩阵，第一行 x、b，第二行 a、y。", "category": "matrix", "rule_ref": "代入得 矩阵，第 一 行 x、b，第 二 行 a、y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\lim_{c \\to 3} \\frac{\\sin c}{c} 可知，答案选 C。", "completion": "由 当 c 趋向于 三 时，c 分之 sin c 的极限 可知，答案选 C。", "category": "limit", "rule_ref": "由 当 c 趋向于 三 时，c 分之 sin c 的极限 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 f(b) = b^2。", "completion": "两边化简之后，函数 f 在 b 处的值等于 b 的平方。", "category": "function", "rule_ref": "两边化简后得 f b 等于 b 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\log_{3} 9。", "completion": "整理得 以三为底九的对数。", "category": "log", "rule_ref": "整理得 以 三 为底 九 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 C \\cap B。", "completion": "即 C 与 B 的交集。", "category": "set", "rule_ref": "即 C 交 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\begin{pmatrix} 8 & 4 & 5 \\\\ 9 & 4 & 6 \\end{pmatrix} 代入原式，即可求解。", "completion": "将 矩阵，第一行八、四、五，第二行九、四、六，代入原式，即可求解。", "category": "matrix", "rule_ref": "将 矩阵，第 一 行 八、四、五，第 二 行 九、四、六 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 MN \\parallel AB。", "completion": "整理得 M N 与 A B 平行。", "category": "geometry", "rule_ref": "整理得 M N 平行于 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\vec{b}。", "completion": "注意到 向量 b。", "category": "vector", "rule_ref": "注意到 向量 b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 90\\%。", "completion": "计算得到 百分之 九十。", "category": "percent", "rule_ref": "计算得到 百分之 九零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\begin{pmatrix} 8 & 3 & 3 \\\\ 1 & 4 & 3 \\end{pmatrix}。", "completion": "最终得到 矩阵，第一行八、三、三，第二行一、四、三。", "category": "matrix", "rule_ref": "最终得到 矩阵，第 一 行 八、三、三，第 二 行 一、四、三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\lim_{x \\to 1} \\frac{\\ln(1 + x)}{x} 代入原式，即可求解。", "completion": "将 当 x 趋向于 一 时，ln(1 加 x) 除以 x 的极限 代入原式，就可以求解。", "category": "limit", "rule_ref": "将 当 x 趋向于 一 时，x 分之 ln 括号 一 加 x 闭括号 的极限 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\log_{3} 4。", "completion": "于是 以三为底四的对数。", "category": "log", "rule_ref": "于是 以 三 为底 四 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 7!。", "completion": "这一步要注意 七 的阶乘。", "category": "factorial", "rule_ref": "这一步要注意 七 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 MN \\perp CD。", "completion": "两边化简之后得出 M N 与 C D 互相垂直。", "category": "geometry", "rule_ref": "两边化简后得 M N 垂直于 C D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\begin{vmatrix} 5 & x \\\\ 6 & y \\end{vmatrix}。", "completion": "联立可得 行列式，五、x，六、y。", "category": "determinant", "rule_ref": "联立可得 行列式，第 一 行 五、x，第 二 行 六、y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\emptyset。", "completion": "两边化简后得到 空集。", "category": "set", "rule_ref": "两边化简后得 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\overrightarrow{PQ}。", "completion": "根据题意，向量 PQ。", "category": "vector", "rule_ref": "根据题意得 向量 P Q。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 EF \\perp MN，所以选 A。", "completion": "原式可以化简为 EF 垂直于 MN，所以选择 A。", "category": "geometry", "rule_ref": "原式可化为 E F 垂直于 M N，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 g(2x)。", "completion": "根据题意，得到 g 函数作用于 2x。", "category": "function", "rule_ref": "根据题意得 g 二 x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\overrightarrow{AB}，所以选 D。", "completion": "因为向量 AB，所以选择 D。", "category": "vector", "rule_ref": "因为 向量 A B，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\begin{vmatrix} 9 & b \\\\ 2 & 8 \\end{vmatrix}。", "completion": "这一步要注意 行列式，九、b 在第一行，二、八在第二行。", "category": "determinant", "rule_ref": "这一步要注意 行列式，第 一 行 九、b，第 二 行 二、八。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\ln n 代入原式，即可求解。", "completion": "将 ln n 代入原式，就可以求解了。", "category": "log", "rule_ref": "将 n 的自然对数 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\lim_{y \\to 1} \\frac{y^2 - 1}{y}。", "completion": "解得 当 y 趋向于 一 时，y 的平方减一 除以 y 的极限。", "category": "limit", "rule_ref": "解得 当 y 趋向于 一 时，y 分之 y 减 一 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\lim_{b \\to 4} \\frac{\\sin b}{b}。", "completion": "整理得 当 b 趋向于 四 时，b 分之 sin b 的极限。", "category": "limit", "rule_ref": "整理得 当 b 趋向于 四 时，b 分之 sin b 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\lim_{x \\to 1} \\frac{x^2 - 1}{x}。", "completion": "由此可知 当 x 趋向于 一 时，x 的平方减一 除以 x 的极限。", "category": "limit", "rule_ref": "由此可知 当 x 趋向于 一 时，x 分之 x 减 一 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 CD \\parallel EF。", "completion": "解得 CD 平行于 EF。", "category": "geometry", "rule_ref": "解得 C D 平行于 E F。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\begin{pmatrix} 1 & 2 & 1 \\\\ 8 & 4 & 8 \\end{pmatrix} 代入原式，即可求解。", "completion": "将 矩阵，第一行一、二、三，第二行八、四、八，代入原式，即可求解。", "category": "matrix", "rule_ref": "将 矩阵，第 一 行 一、二、一，第 二 行 八、四、八 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\log_{3} 2。", "completion": "化简可得 以三为底二的对数。", "category": "log", "rule_ref": "化简可得 以 三 为底 二 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\vec{n}。", "completion": "这一步要注意 向量 n。", "category": "vector", "rule_ref": "这一步要注意 向量 n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 90\\% 可知，答案选 C。", "completion": "由百分之九十可知，答案选择 C。", "category": "percent", "rule_ref": "由 百分之 九零 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\vec{c}。", "completion": "整理得 向量 c。", "category": "vector", "rule_ref": "整理得 向量 c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 f(a^2)。", "completion": "计算得到 f 括号 a 的平方。", "category": "function", "rule_ref": "计算得到 f a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\lim_{b \\to 1} \\frac{\\sin b}{b} 代入原式，即可求解。", "completion": "将 当 b 趋向于 一 时，b 分之 sin b 的极限 代入原式，就可以求解了。", "category": "limit", "rule_ref": "将 当 b 趋向于 一 时，b 分之 sin b 的极限 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 A \\cup B。", "completion": "解得 A 并 B。", "category": "set", "rule_ref": "解得 A 并 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\overrightarrow{MN}。", "completion": "根据题意，向量 M N。", "category": "vector", "rule_ref": "根据题意得 向量 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\binom{c}{a}。", "completion": "接下来计算 c 选 a 的组合数。", "category": "binom", "rule_ref": "接下来计算 c 取 a 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\triangle ABC \\sim \\triangle PQR 可求出结果。", "completion": "根据公式 三角形 ABC 相似于 三角形 PQR 可以求出结果。", "category": "geometry", "rule_ref": "根据公式 三角形 A B C 相似于 三角形 P Q R 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\begin{pmatrix} 2 & 2 & 5 \\\\ 2 & 4 & 2 \\end{pmatrix}。", "completion": "接下来计算 矩阵，第一行二、二、五，第二行二、四、二。", "category": "matrix", "rule_ref": "接下来计算 矩阵，第 一 行 二、二、五，第 二 行 二、四、二。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 56\\%。", "completion": "接下来计算 百分之 五十六。", "category": "percent", "rule_ref": "接下来计算 百分之 五六。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 f(b) = b^2。", "completion": "根据题意，函数 f 在 b 处的值等于 b 的平方。", "category": "function", "rule_ref": "根据题意得 f b 等于 b 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\begin{vmatrix} 3 & a \\\\ 6 & 9 \\end{vmatrix}。", "completion": "化简可得 行列式，第一行三和 a，第二行六和九。", "category": "determinant", "rule_ref": "化简可得 行列式，第 一 行 三、a，第 二 行 六、九。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 g(2n)。", "completion": "根据题意，得到 g 函数作用于 2n。", "category": "function", "rule_ref": "根据题意得 g 二 n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 72\\%。", "completion": "最终得到 百分之 七十二。", "category": "percent", "rule_ref": "最终得到 百分之 七二。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\binom{4}{2}。", "completion": "两边化简后得到 四选二的组合数。", "category": "binom", "rule_ref": "两边化简后得 四 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 MN \\parallel CD 可知，答案选 D。", "completion": "由 MN 平行于 CD 可知，答案选择 D。", "category": "geometry", "rule_ref": "由 M N 平行于 C D 可知，答案选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\ln c。", "completion": "即 自然对数 c。", "category": "log", "rule_ref": "即 c 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\binom{a}{n} 可知，答案选 D。", "completion": "由组合数 a 选 n 可知，答案选择 D。", "category": "binom", "rule_ref": "由 a 取 n 的组合数 可知，答案选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\lim_{c \\to 4} \\frac{c^2 - 4}{c} 代入原式，即可求解。", "completion": "将 当 c 趋向于 四 时，c 的平方减四 除以 c 的极限 代入原式，就可以求解了。", "category": "limit", "rule_ref": "将 当 c 趋向于 四 时，c 分之 c 减 四 的极限 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 90\\%。", "completion": "接下来计算 百分之 九零。", "category": "percent", "rule_ref": "接下来计算 百分之 九零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 7!。", "completion": "即 七 的阶乘。", "category": "factorial", "rule_ref": "即 七 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 45\\%。", "completion": "联立可得 百分之 四五。", "category": "percent", "rule_ref": "联立可得 百分之 四五。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 60\\%。", "completion": "最终得到 百分之 六零。", "category": "percent", "rule_ref": "最终得到 百分之 六零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\lim_{y \\to 5} \\frac{\\sin y}{y}。", "completion": "这一步要注意 当 y 趋向于 五 时，y 分之 sin y 的极限。", "category": "limit", "rule_ref": "这一步要注意 当 y 趋向于 五 时，y 分之 sin y 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 c!，所以选 D。", "completion": "因为 c 的阶乘，所以选择 D。", "category": "factorial", "rule_ref": "因为 c 的阶乘，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 f(x + 1)。", "completion": "于是 f 括号 x 加 一。", "category": "function", "rule_ref": "于是 f x 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 5!。", "completion": "注意到 五的阶乘。", "category": "factorial", "rule_ref": "注意到 五 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\emptyset。", "completion": "注意到 空集。", "category": "set", "rule_ref": "注意到 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 C \\cap B。", "completion": "解得 C 与 B 的交集。", "category": "set", "rule_ref": "解得 C 交 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\begin{vmatrix} 9 & 4 \\\\ 5 & 4 \\end{vmatrix} 代入原式，即可求解。", "completion": "将 行列式 九 四，五 四 代入原式，就可以求解了。", "category": "determinant", "rule_ref": "将 行列式，第 一 行 九、四，第 二 行 五、四 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 EF \\perp AB。", "completion": "接下来计算 EF 垂直于 AB。", "category": "geometry", "rule_ref": "接下来计算 E F 垂直于 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\vec{a}。", "completion": "由此可知 向量 a。", "category": "vector", "rule_ref": "由此可知 向量 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 B \\cup A，所以选 B。", "completion": "原式可以化简为 B 并上 A，所以选择 B。", "category": "set", "rule_ref": "原式可化为 B 并 A，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 g(y) = y^2。", "completion": "接下来计算 g(y) 等于 y 的平方。", "category": "function", "rule_ref": "接下来计算 g y 等于 y 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 MN \\parallel CD。", "completion": "化简之后，MN 平行于 CD。", "category": "geometry", "rule_ref": "化简可得 M N 平行于 C D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\lim_{y \\to 4} \\frac{y^2 - 4}{y} 代入原式，即可求解。", "completion": "将 当 y 趋向于 四 时，y 的平方减四 除以 y 的极限 代入原式，就可以求解了。", "category": "limit", "rule_ref": "将 当 y 趋向于 四 时，y 分之 y 减 四 的极限 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\ln a，所以选 D。", "completion": "原式可以化简为 以 a 为底的对数，所以选择 D。", "category": "log", "rule_ref": "原式可化为 a 的自然对数，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 b!。", "completion": "计算得到 b 的阶乘。", "category": "factorial", "rule_ref": "计算得到 b 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\overrightarrow{CD}，所以选 C。", "completion": "因为向量 CD，所以选择 C。", "category": "vector", "rule_ref": "因为 向量 C D，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 g(c^2)。", "completion": "计算得到 g 乘以 c 的平方。", "category": "function", "rule_ref": "计算得到 g c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\binom{6}{3}。", "completion": "最终得到 六选三的组合数。", "category": "binom", "rule_ref": "最终得到 六 取 三 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 3!。", "completion": "于是 三 的阶乘。", "category": "factorial", "rule_ref": "于是 三 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 1\\%，所以选 B。", "completion": "原式可以化为百分之一，所以选择 B。", "category": "percent", "rule_ref": "原式可化为 百分之 一，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\triangle DEF \\sim \\triangle ABC。", "completion": "于是 三角形 DEF 相似于 三角形 ABC。", "category": "geometry", "rule_ref": "于是 三角形 D E F 相似于 三角形 A B C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\vec{b} 可知，答案选 B。", "completion": "由向量 b 可知，答案选择 B。", "category": "vector", "rule_ref": "由 向量 b 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 A \\cup B。", "completion": "接下来计算 A 并 B。", "category": "set", "rule_ref": "接下来计算 A 并 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 7! 代入原式，即可求解。", "completion": "将七的阶乘代入原式，就可以求解了。", "category": "factorial", "rule_ref": "将 七 的阶乘 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\vec{n}，所以选 D。", "completion": "原式可以化为向量 n，所以选择 D。", "category": "vector", "rule_ref": "原式可化为 向量 n，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 76\\%，所以选 C。", "completion": "原式可以化为百分之七十六，所以选择 C。", "category": "percent", "rule_ref": "原式可化为 百分之 七六，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\begin{pmatrix} y & n \\\\ n & y \\end{pmatrix} 代入原式，即可求解。", "completion": "将 矩阵 y、n、n、y 代入原式，就可以求解了。", "category": "matrix", "rule_ref": "将 矩阵，第 一 行 y、n，第 二 行 n、y 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\ln y。", "completion": "解得 以 e 为底 y 的对数。", "category": "log", "rule_ref": "解得 y 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\binom{x}{n}。", "completion": "于是 x 选 n。", "category": "binom", "rule_ref": "于是 x 取 n 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\lim_{a \\to 2} \\frac{\\sin a}{a}。", "completion": "化简可得 当 a 趋向于 二 时，a 分之 sin a 的极限。", "category": "limit", "rule_ref": "化简可得 当 a 趋向于 二 时，a 分之 sin a 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 C \\cap A。", "completion": "这一步要注意 C 与 A 的交集。", "category": "set", "rule_ref": "这一步要注意 C 交 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 g(n) = n^2 代入原式，即可求解。", "completion": "将 g(n) 等于 n 的平方 代入原式，就可以求解了。", "category": "function", "rule_ref": "将 g n 等于 n 平方 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 h(b) = b^2，所以选 D。", "completion": "原式可以化简为 h 括号 b 等于 b 的平方，所以选择 D。", "category": "function", "rule_ref": "原式可化为 h b 等于 b 平方，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\overrightarrow{MN} 可知，答案选 D。", "completion": "由向量 MN 可知，答案选择 D。", "category": "vector", "rule_ref": "由 向量 M N 可知，答案选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 AB \\parallel EF。", "completion": "代入得 AB 与 EF 平行。", "category": "geometry", "rule_ref": "代入得 A B 平行于 E F。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\vec{a}。", "completion": "整理得 向量 a。", "category": "vector", "rule_ref": "整理得 向量 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\vec{a} 代入原式，即可求解。", "completion": "将向量 a 代入原式，就可以求解了。", "category": "vector", "rule_ref": "将 向量 a 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 x \\in \\mathbb{N} 代入原式，即可求解。", "completion": "将 x 属于自然数集合 代入原式，就可以求解了。", "category": "set", "rule_ref": "将 x 属于 自然数集 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\binom{y}{n}。", "completion": "化简可得 y 选 n 的组合数。", "category": "binom", "rule_ref": "化简可得 y 取 n 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 5!。", "completion": "联立可得 五的阶乘。", "category": "factorial", "rule_ref": "联立可得 五 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\lim_{n \\to 2} \\frac{n^2 - 2}{n}。", "completion": "注意到 当 n 趋向于 二 时，n 的平方减二 除以 n 的极限。", "category": "limit", "rule_ref": "注意到 当 n 趋向于 二 时，n 分之 n 减 二 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\begin{vmatrix} 5 & c \\\\ 9 & 4 \\end{vmatrix}。", "completion": "计算得到 行列式，第一行五、c，第二行九、四。", "category": "determinant", "rule_ref": "计算得到 行列式，第 一 行 五、c，第 二 行 九、四。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\ln n。", "completion": "根据题意，自然对数 n。", "category": "log", "rule_ref": "根据题意得 n 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\lim_{y \\to 3} \\frac{\\sin y}{y} 可求出结果。", "completion": "根据公式 当 y 趋向于 三 时，y 分之 sin y 的极限，可以求出结果。", "category": "limit", "rule_ref": "根据公式 当 y 趋向于 三 时，y 分之 sin y 的极限 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\ln b。", "completion": "即 自然对数 b。", "category": "log", "rule_ref": "即 b 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 EF \\perp MN。", "completion": "注意到 EF 垂直于 MN。", "category": "geometry", "rule_ref": "注意到 E F 垂直于 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 7!。", "completion": "两边化简后得到 七 的阶乘。", "category": "factorial", "rule_ref": "两边化简后得 七 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 x \\in \\mathbb{Q}。", "completion": "代入得 x 属于有理数集。", "category": "set", "rule_ref": "代入得 x 属于 有理数集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 x!。", "completion": "于是 x 的阶乘。", "category": "factorial", "rule_ref": "于是 x 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\begin{vmatrix} 7 & 2 \\\\ 7 & n \\end{vmatrix} 代入原式，即可求解。", "completion": "将 行列式，七、二，七、n 代入原式，就可以求解了。", "category": "determinant", "rule_ref": "将 行列式，第 一 行 七、二，第 二 行 七、n 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 EF \\perp MN，所以选 B。", "completion": "原式可以化简为 EF 垂直于 MN，所以选择 B。", "category": "geometry", "rule_ref": "原式可化为 E F 垂直于 M N，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 30\\% 可知，答案选 A。", "completion": "由百分之三十可知，答案选择 A。", "category": "percent", "rule_ref": "由 百分之 三零 可知，答案选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\binom{n}{b}，所以选 B。", "completion": "因为组合数 n 选 b，所以选择 B。", "category": "binom", "rule_ref": "因为 n 取 b 的组合数，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\binom{5}{2}。", "completion": "由此可知 五选二的组合数。", "category": "binom", "rule_ref": "由此可知 五 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 8!。", "completion": "计算得到 八 的阶乘。", "category": "factorial", "rule_ref": "计算得到 八 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\log_{3} 2。", "completion": "即 以三为底二的对数。", "category": "log", "rule_ref": "即 以 三 为底 二 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\begin{vmatrix} 1 & 9 \\\\ 3 & 9 \\end{vmatrix}。", "completion": "于是 行列式，第一行一、九，第二行三、九。", "category": "determinant", "rule_ref": "于是 行列式，第 一 行 一、九，第 二 行 三、九。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 f(y) = y^2 可知，答案选 B。", "completion": "由函数 f(y) 等于 y 的平方 可知，答案选择 B。", "category": "function", "rule_ref": "由 f y 等于 y 平方 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 n!。", "completion": "化简可得 n 的阶乘。", "category": "factorial", "rule_ref": "化简可得 n 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\ln y 可知，答案选 A。", "completion": "由 y 的自然对数可知，答案选择 A。", "category": "log", "rule_ref": "由 y 的自然对数 可知，答案选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\vec{c}。", "completion": "联立可得 向量 c。", "category": "vector", "rule_ref": "联立可得 向量 c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 n!。", "completion": "根据题意，n 的阶乘。", "category": "factorial", "rule_ref": "根据题意得 n 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 CD \\perp AB。", "completion": "即 CD 垂直于 AB。", "category": "geometry", "rule_ref": "即 C D 垂直于 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\begin{vmatrix} b & 2 \\\\ n & 2 \\end{vmatrix} 可知，答案选 C。", "completion": "由 行列式，第一列 b、第二列 2，第二列 n、第二列 2，可知答案选 C。", "category": "determinant", "rule_ref": "由 行列式，第 一 行 b、二，第 二 行 n、二 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 7!。", "completion": "代入得 七的阶乘。", "category": "factorial", "rule_ref": "代入得 七 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\begin{bmatrix} c & c \\\\ n & c \\end{bmatrix}。", "completion": "注意到 矩阵，第一行 c、c，第二行 n、c。", "category": "matrix", "rule_ref": "注意到 矩阵，第 一 行 c、c，第 二 行 n、c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 b!。", "completion": "两边化简后得到 b 的阶乘。", "category": "factorial", "rule_ref": "两边化简后得 b 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\binom{a}{n}。", "completion": "这一步要注意 组合数，a 取 n。", "category": "binom", "rule_ref": "这一步要注意 a 取 n 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 EF \\perp AB。", "completion": "两边化简之后得出 EF 垂直于 AB。", "category": "geometry", "rule_ref": "两边化简后得 E F 垂直于 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\overrightarrow{MN}。", "completion": "这一步要注意 向量 M N。", "category": "vector", "rule_ref": "这一步要注意 向量 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\lim_{y \\to 1} \\frac{\\sin y}{y}。", "completion": "化简可得 当 y 趋向于 一 时，y 分之 sin y 的极限。", "category": "limit", "rule_ref": "化简可得 当 y 趋向于 一 时，y 分之 sin y 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\log_{3} 9。", "completion": "最终得到 以三为底九的对数。", "category": "log", "rule_ref": "最终得到 以 三 为底 九 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 MN \\perp CD。", "completion": "这一步要注意，M 和 N 的连线垂直于 C 和 D 的连线。", "category": "geometry", "rule_ref": "这一步要注意 M N 垂直于 C D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 50\\% 代入原式，即可求解。", "completion": "将 百分之 五零 代入原式，就可以求解了。", "category": "percent", "rule_ref": "将 百分之 五零 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\log_{2} 3 可知，答案选 C。", "completion": "由以二为底三的对数可知，答案选择 C。", "category": "log", "rule_ref": "由 以 二 为底 三 的对数 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 A \\cap B 可知，答案选 D。", "completion": "由 A 与 B 的交集可知，答案选择 D。", "category": "set", "rule_ref": "由 A 交 B 可知，答案选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 f(a) = a^2 可知，答案选 B。", "completion": "由 f(a) 等于 a 的平方 可知，答案选择 B。", "category": "function", "rule_ref": "由 f a 等于 a 平方 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 4! 可求出结果。", "completion": "根据公式 四的阶乘，可以求出结果。", "category": "factorial", "rule_ref": "根据公式 四 的阶乘 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\log_{3} 2。", "completion": "这一步要注意 以三为底二的对数。", "category": "log", "rule_ref": "这一步要注意 以 三 为底 二 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 f(n + 1)。", "completion": "最终得到 f 括号 n 加一。", "category": "function", "rule_ref": "最终得到 f n 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\begin{bmatrix} x & n \\\\ x & b \\end{bmatrix}。", "completion": "由此可知 矩阵，第一行 x 和 n，第二行 x 和 b。", "category": "matrix", "rule_ref": "由此可知 矩阵，第 一 行 x、n，第 二 行 x、b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 8!。", "completion": "根据题意，八的阶乘。", "category": "factorial", "rule_ref": "根据题意得 八 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\log_{3} 6。", "completion": "注意到 以三为底六的对数。", "category": "log", "rule_ref": "注意到 以 三 为底 六 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 y!。", "completion": "注意到 y 的阶乘。", "category": "factorial", "rule_ref": "注意到 y 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\binom{5}{2}。", "completion": "两边化简后得到 五选二的组合数。", "category": "binom", "rule_ref": "两边化简后得 五 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\ln a 可求出结果。", "completion": "根据公式 自然对数 a 可以求出结果。", "category": "log", "rule_ref": "根据公式 a 的自然对数 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 6!。", "completion": "即 六 的阶乘。", "category": "factorial", "rule_ref": "即 六 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 7!。", "completion": "于是 七 的阶乘。", "category": "factorial", "rule_ref": "于是 七 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 50^\\circ。", "completion": "即 五零度。", "category": "percent", "rule_ref": "即 五零 度。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\lim_{y \\to 4} \\frac{y^2 - 4}{y}。", "completion": "化简可得 当 y 趋向于 四 时，y 的平方减四 除以 y 的极限。", "category": "limit", "rule_ref": "化简可得 当 y 趋向于 四 时，y 分之 y 减 四 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\begin{pmatrix} 2 & 5 & 9 \\\\ 7 & 6 & 5 \\end{pmatrix}。", "completion": "这一步要注意 矩阵，第 一 行 二、五、九，第 二 行 七、六、五。", "category": "matrix", "rule_ref": "这一步要注意 矩阵，第 一 行 二、五、九，第 二 行 七、六、五。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\begin{vmatrix} 1 & n \\\\ x & 5 \\end{vmatrix}。", "completion": "注意到 行列式，第一行一、n，第二行 x、五。", "category": "determinant", "rule_ref": "注意到 行列式，第 一 行 一、n，第 二 行 x、五。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 A \\cup C。", "completion": "计算得到 A 并 C。", "category": "set", "rule_ref": "计算得到 A 并 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\begin{pmatrix} 6 & 2 & 7 \\\\ 8 & 9 & 5 \\end{pmatrix}。", "completion": "接下来计算 矩阵，第一行 六、二、七，第二行 八、九、五。", "category": "matrix", "rule_ref": "接下来计算 矩阵，第 一 行 六、二、七，第 二 行 八、九、五。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\log_{3} 2，所以选 A。", "completion": "因为以三为底二的对数，所以选择 A。", "category": "log", "rule_ref": "因为 以 三 为底 二 的对数，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\binom{n}{a}。", "completion": "于是 n 选 a。", "category": "binom", "rule_ref": "于是 n 取 a 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\begin{pmatrix} c & a \\\\ c & y \\end{pmatrix} 代入原式，即可求解。", "completion": "将 矩阵，第一行 c、a，第二行 c、y，代入原式，就可以求解了。", "category": "matrix", "rule_ref": "将 矩阵，第 一 行 c、a，第 二 行 c、y 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\overrightarrow{CD}，所以选 B。", "completion": "原式可以化为向量 CD，所以选择 B。", "category": "vector", "rule_ref": "原式可化为 向量 C D，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 y!。", "completion": "最终得到 y 的阶乘。", "category": "factorial", "rule_ref": "最终得到 y 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\binom{b}{a}。", "completion": "接下来计算 从 b 中选 a 的组合数。", "category": "binom", "rule_ref": "接下来计算 b 取 a 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\log_{2} 3。", "completion": "这一步要注意 以二为底三的对数。", "category": "log", "rule_ref": "这一步要注意 以 二 为底 三 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 f(c + 1)。", "completion": "由此可知 f 括号 c 加一。", "category": "function", "rule_ref": "由此可知 f c 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\emptyset。", "completion": "联立可得 空集。", "category": "set", "rule_ref": "联立可得 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\begin{bmatrix} b & c \\\\ b & x \\end{bmatrix}。", "completion": "代入得 矩阵，第一行 b、c，第二行 b、x。", "category": "matrix", "rule_ref": "代入得 矩阵，第 一 行 b、c，第 二 行 b、x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\begin{bmatrix} a & c \\\\ n & b \\end{bmatrix}。", "completion": "联立可得 矩阵，第一行 a、c，第二行 n、b。", "category": "matrix", "rule_ref": "联立可得 矩阵，第 一 行 a、c，第 二 行 n、b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 h(a + 1)，所以选 D。", "completion": "原式可以化简为 h 乘以括号 a 加 一，所以选择 D。", "category": "function", "rule_ref": "原式可化为 h a 加 一，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\begin{pmatrix} 3 & 6 & 6 \\\\ 2 & 8 & 4 \\end{pmatrix}。", "completion": "由此可知 矩阵，第 一 行 三、六、六，第 二 行 二、八、四。", "category": "matrix", "rule_ref": "由此可知 矩阵，第 一 行 三、六、六，第 二 行 二、八、四。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\begin{pmatrix} 8 & 3 & 8 \\\\ 7 & 2 & 2 \\end{pmatrix}。", "completion": "化简可得 矩阵，第一行八、三、八，第二行七、二、二。", "category": "matrix", "rule_ref": "化简可得 矩阵，第 一 行 八、三、八，第 二 行 七、二、二。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 7!。", "completion": "解得 七的阶乘。", "category": "factorial", "rule_ref": "解得 七 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\emptyset。", "completion": "即 空集。", "category": "set", "rule_ref": "即 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{vmatrix} c & y \\\\ a & b \\end{vmatrix}。", "completion": "根据题意，行列式，c 行 y 列，a 行 b 列。", "category": "determinant", "rule_ref": "根据题意得 行列式，第 一 行 c、y，第 二 行 a、b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\lim_{b \\to 3} \\frac{\\sin b}{b}。", "completion": "由此可知 当 b 趋向于 三 时，b 分之 sin b 的极限。", "category": "limit", "rule_ref": "由此可知 当 b 趋向于 三 时，b 分之 sin b 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\lim_{n \\to 5} \\frac{n^2 - 5}{n}。", "completion": "两边化简后得 当 n 趋向于 五 时，n 的平方减五 除以 n 的极限。", "category": "limit", "rule_ref": "两边化简后得 当 n 趋向于 五 时，n 分之 n 减 五 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 f(2a)。", "completion": "根据题意，函数 f 在 2a 处的值。", "category": "function", "rule_ref": "根据题意得 f 二 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\lim_{n \\to 3} \\frac{n^2 - 3}{n}。", "completion": "这一步要注意 当 n 趋向于 三 时，n 的平方减三 除以 n 的极限。", "category": "limit", "rule_ref": "这一步要注意 当 n 趋向于 三 时，n 分之 n 减 三 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 x \\in \\mathbb{N} 可求出结果。", "completion": "根据公式 x 属于自然数集合，可以求出结果。", "category": "set", "rule_ref": "根据公式 x 属于 自然数集 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\binom{c}{c}。", "completion": "计算得到 从 c 个中选 c 个的组合数。", "category": "binom", "rule_ref": "计算得到 c 取 c 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\binom{b}{x}。", "completion": "计算得到 从 b 中选 x 的组合数。", "category": "binom", "rule_ref": "计算得到 b 取 x 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 h(n + 1)。", "completion": "即 h 的 n 加 一 次方。", "category": "function", "rule_ref": "即 h n 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\begin{bmatrix} y & b \\\\ b & n \\end{bmatrix}。", "completion": "最终得到 矩阵，第 一 行 y、b，第 二 行 b、n。", "category": "matrix", "rule_ref": "最终得到 矩阵，第 一 行 y、b，第 二 行 b、n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\overrightarrow{AB}。", "completion": "于是 向量 AB。", "category": "vector", "rule_ref": "于是 向量 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 h(n^2)。", "completion": "即 h 括号 n 的平方。", "category": "function", "rule_ref": "即 h n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 B \\cap C。", "completion": "联立可得 B 与 C 的交集。", "category": "set", "rule_ref": "联立可得 B 交 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 86\\% 可知，答案选 C。", "completion": "由百分之八十六可知，答案选择 C。", "category": "percent", "rule_ref": "由 百分之 八六 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\ln a。", "completion": "于是 自然对数 a。", "category": "log", "rule_ref": "于是 a 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 f(c + 1)。", "completion": "代入得 函数 f 在 c 加一处的值。", "category": "function", "rule_ref": "代入得 f c 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\binom{5}{3}。", "completion": "计算得到 五选三的组合数。", "category": "binom", "rule_ref": "计算得到 五 取 三 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\vec{a}。", "completion": "解得 向量 a。", "category": "vector", "rule_ref": "解得 向量 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\vec{y} 代入原式，即可求解。", "completion": "将向量 y 代入原式，就可以求解了。", "category": "vector", "rule_ref": "将 向量 y 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\binom{n}{c}。", "completion": "即 从 n 个里面选 c 个的组合数。", "category": "binom", "rule_ref": "即 n 取 c 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\vec{b}。", "completion": "根据题意，得到向量 b。", "category": "vector", "rule_ref": "根据题意得 向量 b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 34\\%。", "completion": "代入得 百分之 三十四。", "category": "percent", "rule_ref": "代入得 百分之 三四。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\emptyset。", "completion": "于是 空集。", "category": "set", "rule_ref": "于是 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\binom{5}{3}，所以选 C。", "completion": "原式可以化简为 五选三的组合数，所以选择 C。", "category": "binom", "rule_ref": "原式可化为 五 取 三 的组合数，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\begin{pmatrix} a & x \\\\ y & y \\end{pmatrix}，所以选 A。", "completion": "原式可以化简成 矩阵，第一行 a、x，第二行 y、y，所以选择 A。", "category": "matrix", "rule_ref": "原式可化为 矩阵，第 一 行 a、x，第 二 行 y、y，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\begin{pmatrix} n & a \\\\ n & y \\end{pmatrix} 可求出结果。", "completion": "根据公式，矩阵，第一行 n 和 a，第二行 n 和 y，可以求出结果。", "category": "matrix", "rule_ref": "根据公式 矩阵，第 一 行 n、a，第 二 行 n、y 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 6! 可求出结果。", "completion": "根据公式 六 的阶乘，可以求出结果。", "category": "factorial", "rule_ref": "根据公式 六 的阶乘 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\begin{bmatrix} b & y \\\\ a & a \\end{bmatrix}，所以选 D。", "completion": "因为矩阵，第一列 b 和 y，第二列 a 和 a，所以选择 D。", "category": "matrix", "rule_ref": "因为 矩阵，第 一 行 b、y，第 二 行 a、a，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\begin{pmatrix} 4 & 1 & 7 \\\\ 3 & 7 & 2 \\end{pmatrix} 可知，答案选 D。", "completion": "由 矩阵四、一、七，三、七、二 可知，答案选择 D。", "category": "matrix", "rule_ref": "由 矩阵，第 一 行 四、一、七，第 二 行 三、七、二 可知，答案选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\lim_{n \\to 3} \\frac{\\sin n}{n}。", "completion": "计算得到 当 n 趋向于 三 时，n 分之 sin n 的极限。", "category": "limit", "rule_ref": "计算得到 当 n 趋向于 三 时，n 分之 sin n 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\begin{pmatrix} n & b \\\\ x & b \\end{pmatrix}。", "completion": "最终得到 矩阵，第 一 行 n、b，第 二 行 x、b。", "category": "matrix", "rule_ref": "最终得到 矩阵，第 一 行 n、b，第 二 行 x、b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 g(n + 1)。", "completion": "代入得 g 函数作用于 n 加一。", "category": "function", "rule_ref": "代入得 g n 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{pmatrix} 3 & 1 & 2 \\\\ 2 & 4 & 3 \\end{pmatrix}。", "completion": "根据题意得 矩阵，第一行三、一、二，第二行二、四、三。", "category": "matrix", "rule_ref": "根据题意得 矩阵，第 一 行 三、一、二，第 二 行 二、四、三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\begin{bmatrix} a & a \\\\ x & c \\end{bmatrix}。", "completion": "整理得 矩阵，第一行 a、a，第二行 x、c。", "category": "matrix", "rule_ref": "整理得 矩阵，第 一 行 a、a，第 二 行 x、c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\vec{x} 可求出结果。", "completion": "根据公式 向量 x 可以求出结果。", "category": "vector", "rule_ref": "根据公式 向量 x 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\log_{2} 6 可知，答案选 B。", "completion": "由以二为底六的对数可知，答案选择 B。", "category": "log", "rule_ref": "由 以 二 为底 六 的对数 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 CD \\parallel MN。", "completion": "整理得 CD 与 MN 平行。", "category": "geometry", "rule_ref": "整理得 C D 平行于 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\ln c。", "completion": "化简之后得到的是 ln c。", "category": "log", "rule_ref": "化简可得 c 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 f(a + 1)。", "completion": "解得 f 在 a 加一处的值。", "category": "function", "rule_ref": "解得 f a 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\overrightarrow{CD}。", "completion": "这一步要注意 向量 CD。", "category": "vector", "rule_ref": "这一步要注意 向量 C D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\begin{vmatrix} 3 & 2 \\\\ c & 1 \\end{vmatrix}。", "completion": "即 行列式，第一行三、二，第二行 c、一。", "category": "determinant", "rule_ref": "即 行列式，第 一 行 三、二，第 二 行 c、一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\overrightarrow{PQ}。", "completion": "于是 向量 PQ。", "category": "vector", "rule_ref": "于是 向量 P Q。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\log_{3} 3。", "completion": "接下来计算 以三为底三的对数。", "category": "log", "rule_ref": "接下来计算 以 三 为底 三 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 g(x) = x^2。", "completion": "计算得到 g(x) 等于 x 的平方。", "category": "function", "rule_ref": "计算得到 g x 等于 x 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 MN \\perp AB 可求出结果。", "completion": "根据公式 M 乘以 N 垂直于 A 乘以 B，可以求出结果。", "category": "geometry", "rule_ref": "根据公式 M N 垂直于 A B 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\begin{pmatrix} 9 & 4 & 1 \\\\ 7 & 5 & 1 \\end{pmatrix}，所以选 B。", "completion": "因为矩阵，第一行九、四、一，第二行七、五、一，所以选择 B。", "category": "matrix", "rule_ref": "因为 矩阵，第 一 行 九、四、一，第 二 行 七、五、一，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 5! 代入原式，即可求解。", "completion": "将 五的阶乘 代入原式，就可以求解了。", "category": "factorial", "rule_ref": "将 五 的阶乘 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 g(y) = y^2，所以选 B。", "completion": "因为 g(y) 等于 y 的平方，所以选择 B。", "category": "function", "rule_ref": "因为 g y 等于 y 平方，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 h(2a)。", "completion": "整理得 h 乘以 二倍的 a。", "category": "function", "rule_ref": "整理得 h 二 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 9!，所以选 A。", "completion": "原式可以化简为 九的阶乘，所以选择 A。", "category": "factorial", "rule_ref": "原式可化为 九 的阶乘，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\begin{bmatrix} n & x \\\\ c & y \\end{bmatrix}，所以选 B。", "completion": "原式可以化简成 矩阵，第一行是 n 和 x，第二行是 c 和 y，所以选择 B。", "category": "matrix", "rule_ref": "原式可化为 矩阵，第 一 行 n、x，第 二 行 c、y，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\vec{a}。", "completion": "这一步要注意 向量 a。", "category": "vector", "rule_ref": "这一步要注意 向量 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{vmatrix} 6 & 1 \\\\ 4 & c \\end{vmatrix}。", "completion": "根据题意，行列式，六、一，四、c。", "category": "determinant", "rule_ref": "根据题意得 行列式，第 一 行 六、一，第 二 行 四、c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 f(2x) 可知，答案选 B。", "completion": "由 f(2x) 可知，答案选择 B。", "category": "function", "rule_ref": "由 f 二 x 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 10\\%。", "completion": "注意到 百分之 十。", "category": "percent", "rule_ref": "注意到 百分之 一零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{pmatrix} 8 & 7 & 5 \\\\ 7 & 8 & 3 \\end{pmatrix}。", "completion": "根据题意，得到矩阵，第一行是八、七、五，第二行是七、八、三。", "category": "matrix", "rule_ref": "根据题意得 矩阵，第 一 行 八、七、五，第 二 行 七、八、三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 4!。", "completion": "注意到 四 的阶乘。", "category": "factorial", "rule_ref": "注意到 四 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 a!，所以选 C。", "completion": "原式可以化简为 a 的阶乘，所以选择 C。", "category": "factorial", "rule_ref": "原式可化为 a 的阶乘，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\begin{vmatrix} 5 & 6 \\\\ 3 & 3 \\end{vmatrix}，所以选 D。", "completion": "因为行列式，五、六，三、三，所以选择 D。", "category": "determinant", "rule_ref": "因为 行列式，第 一 行 五、六，第 二 行 三、三，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 f(2x)。", "completion": "化简之后得到 f 括号二 x 括号。", "category": "function", "rule_ref": "化简可得 f 二 x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\lim_{c \\to 2} \\frac{\\sin c}{c} 代入原式，即可求解。", "completion": "将 当 c 趋向于 二 时，c 分之 sin c 的极限 代入原式，就可以求解了。", "category": "limit", "rule_ref": "将 当 c 趋向于 二 时，c 分之 sin c 的极限 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 20\\% 可知，答案选 C。", "completion": "由百分之二十可知，答案选择 C。", "category": "percent", "rule_ref": "由 百分之 二零 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\binom{9}{3}。", "completion": "接下来计算 从九个里面选三个的组合数。", "category": "binom", "rule_ref": "接下来计算 九 取 三 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\ln c 可知，答案选 C。", "completion": "由 ln c 可知，答案选择 C。", "category": "log", "rule_ref": "由 c 的自然对数 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\overrightarrow{AB} 代入原式，即可求解。", "completion": "将向量 AB 代入原式，就可以求解了。", "category": "vector", "rule_ref": "将 向量 A B 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\binom{n}{b}。", "completion": "于是 n 选 b。", "category": "binom", "rule_ref": "于是 n 取 b 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 a!。", "completion": "由此可知 a 的阶乘。", "category": "factorial", "rule_ref": "由此可知 a 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\emptyset。", "completion": "根据题意，结果是空集。", "category": "set", "rule_ref": "根据题意得 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\log_{2} 5。", "completion": "即 二的 五 次方根的对数。", "category": "log", "rule_ref": "即 以 二 为底 五 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\begin{vmatrix} y & n \\\\ x & c \\end{vmatrix}。", "completion": "于是 行列式，第一列 y 和 n，第二列 x 和 c。", "category": "determinant", "rule_ref": "于是 行列式，第 一 行 y、n，第 二 行 x、c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\begin{vmatrix} 4 & c \\\\ 6 & 7 \\end{vmatrix}。", "completion": "最终得到 行列式，四和 c 在第一行，六和七在第二行。", "category": "determinant", "rule_ref": "最终得到 行列式，第 一 行 四、c，第 二 行 六、七。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\begin{bmatrix} y & a \\\\ y & x \\end{bmatrix} 可求出结果。", "completion": "根据公式，矩阵 y、a 在第一行，y、x 在第二行，可以求出结果。", "category": "matrix", "rule_ref": "根据公式 矩阵，第 一 行 y、a，第 二 行 y、x 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\vec{c}。", "completion": "由此可知 向量 c。", "category": "vector", "rule_ref": "由此可知 向量 c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\binom{a}{c}。", "completion": "解得 组合数，a 取 c。", "category": "binom", "rule_ref": "解得 a 取 c 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 a!。", "completion": "注意到 a 的阶乘。", "category": "factorial", "rule_ref": "注意到 a 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\emptyset 可知，答案选 C。", "completion": "由 空集 可知，答案选择 C。", "category": "set", "rule_ref": "由 空集 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\overrightarrow{PQ} 可知，答案选 B。", "completion": "由向量 PQ 可知，答案选择 B。", "category": "vector", "rule_ref": "由 向量 P Q 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 MN \\parallel AB。", "completion": "代入得 M 和 N 的连线平行于 A 和 B 的连线。", "category": "geometry", "rule_ref": "代入得 M N 平行于 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{pmatrix} a & x \\\\ a & n \\end{pmatrix}。", "completion": "根据题意，得到矩阵，第一行 a、x，第二行 a、n。", "category": "matrix", "rule_ref": "根据题意得 矩阵，第 一 行 a、x，第 二 行 a、n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\lim_{y \\to 1} \\frac{\\ln(1 + y)}{y}。", "completion": "解得 当 y 趋向于 一 时，ln(1 加 y) 除以 y 的极限。", "category": "limit", "rule_ref": "解得 当 y 趋向于 一 时，y 分之 ln 括号 一 加 y 闭括号 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 f(2b)。", "completion": "最终得到 f 括号二倍 b 括号。", "category": "function", "rule_ref": "最终得到 f 二 b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 4!。", "completion": "最终得到 四 的阶乘。", "category": "factorial", "rule_ref": "最终得到 四 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 10\\%。", "completion": "化简可得 百分之 十。", "category": "percent", "rule_ref": "化简可得 百分之 一零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{vmatrix} 7 & 1 \\\\ c & 3 \\end{vmatrix}。", "completion": "根据题意，行列式，七、一，c、三。", "category": "determinant", "rule_ref": "根据题意得 行列式，第 一 行 七、一，第 二 行 c、三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\vec{y} 可求出结果。", "completion": "根据公式 向量 y 可以求出结果。", "category": "vector", "rule_ref": "根据公式 向量 y 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 4!，所以选 B。", "completion": "因为 四的阶乘，所以选择 B。", "category": "factorial", "rule_ref": "因为 四 的阶乘，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\begin{vmatrix} 5 & 5 \\\\ 8 & 2 \\end{vmatrix} 代入原式，即可求解。", "completion": "将 行列式，第一行五、五，第二行八、二，代入原式，即可求解。", "category": "determinant", "rule_ref": "将 行列式，第 一 行 五、五，第 二 行 八、二 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\binom{7}{3}。", "completion": "整理得 从七选三的组合数。", "category": "binom", "rule_ref": "整理得 七 取 三 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 h(b + 1)。", "completion": "解得 h 乘以括号 b 加 一。", "category": "function", "rule_ref": "解得 h b 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 43\\% 可知，答案选 B。", "completion": "由百分之四十三可知，答案选择 B。", "category": "percent", "rule_ref": "由 百分之 四三 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\begin{vmatrix} 3 & x \\\\ n & 9 \\end{vmatrix}。", "completion": "解得 行列式，第一行三、x，第二行 n、九。", "category": "determinant", "rule_ref": "解得 行列式，第 一 行 三、x，第 二 行 n、九。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\begin{vmatrix} 4 & 8 \\\\ x & 5 \\end{vmatrix}。", "completion": "接下来计算 行列式，四、八，x、五。", "category": "determinant", "rule_ref": "接下来计算 行列式，第 一 行 四、八，第 二 行 x、五。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\ln a。", "completion": "解得 以 e 为底 a 的对数。", "category": "log", "rule_ref": "解得 a 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 c!。", "completion": "联立可得 c 的阶乘。", "category": "factorial", "rule_ref": "联立可得 c 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\begin{pmatrix} a & n \\\\ a & b \\end{pmatrix}。", "completion": "于是 矩阵，第一行 a、n，第二行 a、b。", "category": "matrix", "rule_ref": "于是 矩阵，第 一 行 a、n，第 二 行 a、b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 h(y) = y^2。", "completion": "根据题意，函数 h(y) 等于 y 的平方。", "category": "function", "rule_ref": "根据题意得 h y 等于 y 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 EF \\perp AB。", "completion": "解得 EF 垂直于 AB。", "category": "geometry", "rule_ref": "解得 E F 垂直于 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\binom{8}{3}，所以选 A。", "completion": "因为 八选三，所以选择 A。", "category": "binom", "rule_ref": "因为 八 取 三 的组合数，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\triangle PQR \\cong \\triangle ABC。", "completion": "最终得到 三角形 PQR 全等于 三角形 ABC。", "category": "geometry", "rule_ref": "最终得到 三角形 P Q R 全等于 三角形 A B C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 x!，所以选 A。", "completion": "因为 x 的阶乘，所以选择 A。", "category": "factorial", "rule_ref": "因为 x 的阶乘，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\vec{b}。", "completion": "整理得 向量 b。", "category": "vector", "rule_ref": "整理得 向量 b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\begin{vmatrix} 4 & n \\\\ 3 & 3 \\end{vmatrix} 代入原式，即可求解。", "completion": "将 行列式，四行 n 列，三行三列，代入原式，即可求解。", "category": "determinant", "rule_ref": "将 行列式，第 一 行 四、n，第 二 行 三、三 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\binom{6}{2}。", "completion": "整理得 六选二的组合数。", "category": "binom", "rule_ref": "整理得 六 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 14\\%。", "completion": "最终得到 百分之 一四。", "category": "percent", "rule_ref": "最终得到 百分之 一四。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 f(a + 1) 可知，答案选 D。", "completion": "由 f(a 加一) 可知，答案选择 D。", "category": "function", "rule_ref": "由 f a 加 一 可知，答案选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\begin{bmatrix} b & x \\\\ c & c \\end{bmatrix}。", "completion": "联立可得 矩阵，第一行 b、x，第二行 c、c。", "category": "matrix", "rule_ref": "联立可得 矩阵，第 一 行 b、x，第 二 行 c、c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 20\\%。", "completion": "解得 百分之 二零。", "category": "percent", "rule_ref": "解得 百分之 二零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 B \\cap A。", "completion": "接下来计算 B 与 A 的交集。", "category": "set", "rule_ref": "接下来计算 B 交 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\begin{pmatrix} n & y \\\\ n & c \\end{pmatrix}。", "completion": "于是 矩阵，第 一 行 n、y，第 二 行 n、c。", "category": "matrix", "rule_ref": "于是 矩阵，第 一 行 n、y，第 二 行 n、c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 h(x) = x^2。", "completion": "联立可得 h(x) 等于 x 的平方。", "category": "function", "rule_ref": "联立可得 h x 等于 x 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 f(b^2) 可知，答案选 D。", "completion": "由 f(b 的平方) 可知，答案选择 D。", "category": "function", "rule_ref": "由 f b 可知，答案选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\binom{y}{y} 代入原式，即可求解。", "completion": "将 y 选 y 的组合数代入原式，即可求解。", "category": "binom", "rule_ref": "将 y 取 y 的组合数 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\binom{y}{c}。", "completion": "最终得到 y 选 c 的组合。", "category": "binom", "rule_ref": "最终得到 y 取 c 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\lim_{c \\to 2} \\frac{\\sin c}{c}。", "completion": "联立可得 当 c 趋向于 二 时，c 分之 sin c 的极限。", "category": "limit", "rule_ref": "联立可得 当 c 趋向于 二 时，c 分之 sin c 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\overrightarrow{MN}。", "completion": "整理得 向量 M N。", "category": "vector", "rule_ref": "整理得 向量 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\log_{2} 5 可知，答案选 C。", "completion": "由以二为底五的对数可知，答案选择 C。", "category": "log", "rule_ref": "由 以 二 为底 五 的对数 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 CD \\parallel MN 可求出结果。", "completion": "根据公式 CD 平行于 MN 可以求出结果。", "category": "geometry", "rule_ref": "根据公式 C D 平行于 M N 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 b!。", "completion": "于是 b 的阶乘。", "category": "factorial", "rule_ref": "于是 b 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\lim_{y \\to 1} \\frac{\\sin y}{y}。", "completion": "即 当 y 趋向于 一 时，y 分之 sin y 的极限。", "category": "limit", "rule_ref": "即 当 y 趋向于 一 时，y 分之 sin y 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\overrightarrow{MN}。", "completion": "即 向量 M N。", "category": "vector", "rule_ref": "即 向量 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\begin{pmatrix} a & b \\\\ x & c \\end{pmatrix}。", "completion": "这一步要注意 矩阵，第 一 行 a、b，第 二 行 x、c。", "category": "matrix", "rule_ref": "这一步要注意 矩阵，第 一 行 a、b，第 二 行 x、c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\vec{x} 可知，答案选 B。", "completion": "由向量 x 可知，答案选择 B。", "category": "vector", "rule_ref": "由 向量 x 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 85\\%。", "completion": "联立可得 百分之 八五。", "category": "percent", "rule_ref": "联立可得 百分之 八五。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 h(y^2)。", "completion": "注意到 h 作用于 y 的平方。", "category": "function", "rule_ref": "注意到 h y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 7!。", "completion": "注意到 七 的阶乘。", "category": "factorial", "rule_ref": "注意到 七 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 58\\%。", "completion": "两边化简之后得到百分之 五十八。", "category": "percent", "rule_ref": "两边化简后得 百分之 五八。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\vec{b}。", "completion": "于是 向量 b。", "category": "vector", "rule_ref": "于是 向量 b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\vec{y}。", "completion": "这一步要注意 向量 y。", "category": "vector", "rule_ref": "这一步要注意 向量 y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\emptyset。", "completion": "接下来计算 空集。", "category": "set", "rule_ref": "接下来计算 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 60\\% 可求出结果。", "completion": "根据公式，百分之六十，可以求出结果。", "category": "percent", "rule_ref": "根据公式 百分之 六零 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 3!。", "completion": "最终得到 三 的阶乘。", "category": "factorial", "rule_ref": "最终得到 三 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 6!，所以选 C。", "completion": "原式可以化简为六的阶乘，所以选择 C。", "category": "factorial", "rule_ref": "原式可化为 六 的阶乘，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 C \\cap A。", "completion": "于是 C 与 A 的交集。", "category": "set", "rule_ref": "于是 C 交 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{pmatrix} 4 & 1 & 5 \\\\ 9 & 2 & 4 \\end{pmatrix}。", "completion": "根据题意，得到矩阵，第一行是四、一、五，第二行是九、二、四。", "category": "matrix", "rule_ref": "根据题意得 矩阵，第 一 行 四、一、五，第 二 行 九、二、四。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 h(2b)。", "completion": "由此可知 h 函数在 2b 处的值。", "category": "function", "rule_ref": "由此可知 h 二 b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\begin{bmatrix} n & n \\\\ b & x \\end{bmatrix}。", "completion": "解得 矩阵，第 一 行 n、n，第 二 行 b、x。", "category": "matrix", "rule_ref": "解得 矩阵，第 一 行 n、n，第 二 行 b、x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\overrightarrow{AB}。", "completion": "计算得到 向量 AB。", "category": "vector", "rule_ref": "计算得到 向量 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 f(2a) 代入原式，即可求解。", "completion": "将 f(2a) 代入原来的式子，就可以求解了。", "category": "function", "rule_ref": "将 f 二 a 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\begin{vmatrix} 1 & 3 \\\\ 1 & 9 \\end{vmatrix} 代入原式，即可求解。", "completion": "将 行列式，第一行一、三，第二行一、九，代入原式，即可求解。", "category": "determinant", "rule_ref": "将 行列式，第 一 行 一、三，第 二 行 一、九 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\triangle PQR \\cong \\triangle DEF。", "completion": "化简可得 三角形 PQR 全等于 三角形 DEF。", "category": "geometry", "rule_ref": "化简可得 三角形 P Q R 全等于 三角形 D E F。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\lim_{b \\to 2} \\frac{\\sin b}{b}。", "completion": "注意到 当 b 趋向于 二 时，b 分之 sin b 的极限。", "category": "limit", "rule_ref": "注意到 当 b 趋向于 二 时，b 分之 sin b 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 72\\%。", "completion": "注意到 百分之 七十二。", "category": "percent", "rule_ref": "注意到 百分之 七二。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 f(x) = x^2。", "completion": "根据题意，函数 f(x) 等于 x 的平方。", "category": "function", "rule_ref": "根据题意得 f x 等于 x 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 77\\%。", "completion": "解得 百分之 七十七。", "category": "percent", "rule_ref": "解得 百分之 七七。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\binom{b}{n} 可知，答案选 B。", "completion": "由组合数 b 选 n 可知，答案选择 B。", "category": "binom", "rule_ref": "由 b 取 n 的组合数 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\overrightarrow{CD}。", "completion": "代入得 向量 CD。", "category": "vector", "rule_ref": "代入得 向量 C D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\begin{vmatrix} 4 & 5 \\\\ 8 & c \\end{vmatrix}。", "completion": "化简可得 行列式，四、五，八、c。", "category": "determinant", "rule_ref": "化简可得 行列式，第 一 行 四、五，第 二 行 八、c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 C \\cap A。", "completion": "整理得 C 与 A 的交集。", "category": "set", "rule_ref": "整理得 C 交 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\binom{n}{b}。", "completion": "这一步要注意，n 选 b 的组合数。", "category": "binom", "rule_ref": "这一步要注意 n 取 b 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 h(y) = y^2。", "completion": "最终得到 h(y) 等于 y 的平方。", "category": "function", "rule_ref": "最终得到 h y 等于 y 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 h(x) = x^2。", "completion": "根据题意，函数 h(x) 等于 x 的平方。", "category": "function", "rule_ref": "根据题意得 h x 等于 x 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 h(2y)。", "completion": "联立可得 h 乘以 二倍的 y。", "category": "function", "rule_ref": "联立可得 h 二 y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\log_{2} 2。", "completion": "根据题意，以二为底二的对数。", "category": "log", "rule_ref": "根据题意得 以 二 为底 二 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\begin{vmatrix} 8 & 2 \\\\ 8 & y \\end{vmatrix} 可求出结果。", "completion": "根据公式 行列式，八、二，八、y，可以求出结果。", "category": "determinant", "rule_ref": "根据公式 行列式，第 一 行 八、二，第 二 行 八、y 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\binom{n}{y}。", "completion": "两边化简后得到，n 选 y 的组合数。", "category": "binom", "rule_ref": "两边化简后得 n 取 y 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\log_{2} 5，所以选 C。", "completion": "因为以二为底五的对数，所以选择 C。", "category": "log", "rule_ref": "因为 以 二 为底 五 的对数，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 93\\%。", "completion": "接下来计算 百分之 九三。", "category": "percent", "rule_ref": "接下来计算 百分之 九三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\log_{2} 6 代入原式，即可求解。", "completion": "将 以二为底六的对数 代入原式，就可以求解了。", "category": "log", "rule_ref": "将 以 二 为底 六 的对数 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 f(b^2)。", "completion": "整理得 f 括号 b 的平方。", "category": "function", "rule_ref": "整理得 f b。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\begin{pmatrix} 3 & 1 & 1 \\\\ 8 & 8 & 4 \\end{pmatrix}。", "completion": "最终得到 矩阵，第 一 行 三、一、一，第 二 行 八、八、四。", "category": "matrix", "rule_ref": "最终得到 矩阵，第 一 行 三、一、一，第 二 行 八、八、四。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 9\\%。", "completion": "解得 百分之 九。", "category": "percent", "rule_ref": "解得 百分之 九。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 87\\%。", "completion": "代入得 百分之 八十七。", "category": "percent", "rule_ref": "代入得 百分之 八七。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\begin{pmatrix} 4 & 2 & 6 \\\\ 9 & 3 & 8 \\end{pmatrix}。", "completion": "注意到 矩阵，第 一 行 四、二、六，第 二 行 九、三、八。", "category": "matrix", "rule_ref": "注意到 矩阵，第 一 行 四、二、六，第 二 行 九、三、八。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 C \\cap B。", "completion": "最终得到 C 与 B 的交集。", "category": "set", "rule_ref": "最终得到 C 交 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\begin{vmatrix} 5 & 3 \\\\ 2 & 8 \\end{vmatrix}。", "completion": "代入得 行列式，五乘八减三乘二。", "category": "determinant", "rule_ref": "代入得 行列式，第 一 行 五、三，第 二 行 二、八。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\triangle DEF \\cong \\triangle PQR。", "completion": "最终得到 三角形 DEF 全等于 三角形 PQR。", "category": "geometry", "rule_ref": "最终得到 三角形 D E F 全等于 三角形 P Q R。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 CD \\parallel EF。", "completion": "根据题意，CD 平行于 EF。", "category": "geometry", "rule_ref": "根据题意得 C D 平行于 E F。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 h(n) = n^2。", "completion": "解得 h(n) 等于 n 的平方。", "category": "function", "rule_ref": "解得 h n 等于 n 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\overrightarrow{CD}。", "completion": "解得 向量 CD。", "category": "vector", "rule_ref": "解得 向量 C D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\emptyset。", "completion": "最终得到 空集。", "category": "set", "rule_ref": "最终得到 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\begin{pmatrix} c & y \\\\ b & x \\end{pmatrix}。", "completion": "由此可知 矩阵，第 一 行 c、y，第 二 行 b、x。", "category": "matrix", "rule_ref": "由此可知 矩阵，第 一 行 c、y，第 二 行 b、x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 EF \\perp CD，所以选 C。", "completion": "因为 EF 垂直于 CD，所以选择 C。", "category": "geometry", "rule_ref": "因为 E F 垂直于 C D，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\emptyset。", "completion": "解得 空集。", "category": "set", "rule_ref": "解得 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\ln c。", "completion": "解得 自然对数 c。", "category": "log", "rule_ref": "解得 c 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 g(a) = a^2。", "completion": "最终得到 g(a) 等于 a 的平方。", "category": "function", "rule_ref": "最终得到 g a 等于 a 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\lim_{a \\to 5} \\frac{\\sin a}{a}。", "completion": "注意到 当 a 趋向于 五 时，a 分之 sin a 的极限。", "category": "limit", "rule_ref": "注意到 当 a 趋向于 五 时，a 分之 sin a 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\lim_{n \\to 4} \\frac{n^2 - 4}{n}。", "completion": "这一步要注意 当 n 趋向于 四 时，n 的平方减四 除以 n 的极限。", "category": "limit", "rule_ref": "这一步要注意 当 n 趋向于 四 时，n 分之 n 减 四 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\begin{vmatrix} 1 & 5 \\\\ 1 & 3 \\end{vmatrix}。", "completion": "两边化简后得到 行列式，第一行一、五，第二行一、三。", "category": "determinant", "rule_ref": "两边化简后得 行列式，第 一 行 一、五，第 二 行 一、三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 x \\in \\mathbb{R} 可求出结果。", "completion": "根据公式 x 属于实数集，可以求出结果。", "category": "set", "rule_ref": "根据公式 x 属于 实数集 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 MN \\parallel EF。", "completion": "由此可知 M 和 N 的连线平行于 E 和 F 的连线。", "category": "geometry", "rule_ref": "由此可知 M N 平行于 E F。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\overrightarrow{CD} 代入原式，即可求解。", "completion": "将向量 CD 代入原式，就可以求解了。", "category": "vector", "rule_ref": "将 向量 C D 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 g(y) = y^2。", "completion": "联立可得 g(y) 等于 y 的平方。", "category": "function", "rule_ref": "联立可得 g y 等于 y 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\binom{7}{2}。", "completion": "即 七选二的组合数。", "category": "binom", "rule_ref": "即 七 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\overrightarrow{MN}。", "completion": "接下来计算 向量 M N。", "category": "vector", "rule_ref": "接下来计算 向量 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\log_{3} 6，所以选 D。", "completion": "因为以三为底六的对数，所以选择 D。", "category": "log", "rule_ref": "因为 以 三 为底 六 的对数，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\binom{n}{x}。", "completion": "代入得 从 n 个里面选 x 个的组合数。", "category": "binom", "rule_ref": "代入得 n 取 x 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\binom{4}{2}。", "completion": "整理得 四选二的组合数。", "category": "binom", "rule_ref": "整理得 四 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 A \\cap C 可知，答案选 A。", "completion": "由 A 与 C 的交集可知，答案选择 A。", "category": "set", "rule_ref": "由 A 交 C 可知，答案选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\binom{y}{y}。", "completion": "解得 二元 y。", "category": "binom", "rule_ref": "解得 y 取 y 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\log_{2} 5。", "completion": "联立可得 以二为底五的对数。", "category": "log", "rule_ref": "联立可得 以 二 为底 五 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 MN \\perp CD。", "completion": "联立可得 线段 MN 垂直于 线段 CD。", "category": "geometry", "rule_ref": "联立可得 M N 垂直于 C D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\binom{a}{c}。", "completion": "这一步要注意 组合数，a 选 c。", "category": "binom", "rule_ref": "这一步要注意 a 取 c 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\begin{vmatrix} c & b \\\\ n & n \\end{vmatrix}。", "completion": "两边化简后得到 行列式，第一列 c 和 b，第二列 n 和 n。", "category": "determinant", "rule_ref": "两边化简后得 行列式，第 一 行 c、b，第 二 行 n、n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\begin{pmatrix} 3 & 5 & 2 \\\\ 9 & 1 & 6 \\end{pmatrix}。", "completion": "最终得到 矩阵，第一行三、五、二，第二行九、一、六。", "category": "matrix", "rule_ref": "最终得到 矩阵，第 一 行 三、五、二，第 二 行 九、一、六。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 c!。", "completion": "即 c 的阶乘。", "category": "factorial", "rule_ref": "即 c 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 C \\cup B 代入原式，即可求解。", "completion": "将 C 并集 B 代入原式，就可以求解了。", "category": "set", "rule_ref": "将 C 并 B 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 A \\cup B。", "completion": "最终得到 A 并 B。", "category": "set", "rule_ref": "最终得到 A 并 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 B \\cap C。", "completion": "根据题意，B 与 C 的交集。", "category": "set", "rule_ref": "根据题意得 B 交 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 x!。", "completion": "最终得到 x 的阶乘。", "category": "factorial", "rule_ref": "最终得到 x 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\ln n。", "completion": "由此可知 以 e 为底 n 的自然对数。", "category": "log", "rule_ref": "由此可知 n 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 h(n) = n^2。", "completion": "整理得 h(n) 等于 n 的平方。", "category": "function", "rule_ref": "整理得 h n 等于 n 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 f(b) = b^2。", "completion": "由此可知 函数 f 在 b 处的值等于 b 的平方。", "category": "function", "rule_ref": "由此可知 f b 等于 b 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\begin{pmatrix} a & x \\\\ b & c \\end{pmatrix}，所以选 B。", "completion": "原式可以化简成 矩阵，第一行 a、x，第二行 b、c，所以选择 B。", "category": "matrix", "rule_ref": "原式可化为 矩阵，第 一 行 a、x，第 二 行 b、c，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\ln x。", "completion": "即 自然对数 x。", "category": "log", "rule_ref": "即 x 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 MN \\perp AB 代入原式，即可求解。", "completion": "将 MN 垂直于 AB 代入原式，就可以求解了。", "category": "geometry", "rule_ref": "将 M N 垂直于 A B 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 g(n) = n^2。", "completion": "两边化简后得到 g(n) 等于 n 的平方。", "category": "function", "rule_ref": "两边化简后得 g n 等于 n 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\ln n。", "completion": "即 对数 n。", "category": "log", "rule_ref": "即 n 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 5!。", "completion": "这一步要注意 五的阶乘。", "category": "factorial", "rule_ref": "这一步要注意 五 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\vec{n} 代入原式，即可求解。", "completion": "将向量 n 代入原式，就可以求解了。", "category": "vector", "rule_ref": "将 向量 n 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 4!。", "completion": "接下来计算 四 的阶乘。", "category": "factorial", "rule_ref": "接下来计算 四 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 y!。", "completion": "联立可得 y 的阶乘。", "category": "factorial", "rule_ref": "联立可得 y 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 30\\%。", "completion": "即 百分之 三零。", "category": "percent", "rule_ref": "即 百分之 三零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 30\\%。", "completion": "注意到 百分之 三零。", "category": "percent", "rule_ref": "注意到 百分之 三零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 c!，所以选 B。", "completion": "因为 c 的阶乘，所以选择 B。", "category": "factorial", "rule_ref": "因为 c 的阶乘，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 97\\%。", "completion": "由此可知 百分之 九七。", "category": "percent", "rule_ref": "由此可知 百分之 九七。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 MN \\perp CD。", "completion": "解得 M N 垂直于 C D。", "category": "geometry", "rule_ref": "解得 M N 垂直于 C D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 C \\cap B，所以选 B。", "completion": "原式可以化简为 C 与 B 的交集，所以选择 B。", "category": "set", "rule_ref": "原式可化为 C 交 B，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\lim_{a \\to 3} \\frac{\\sin a}{a}。", "completion": "代入得 当 a 趋向于 三 时，a 分之 sin a 的极限。", "category": "limit", "rule_ref": "代入得 当 a 趋向于 三 时，a 分之 sin a 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\overrightarrow{AB}。", "completion": "这一步要注意 向量 AB。", "category": "vector", "rule_ref": "这一步要注意 向量 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 EF \\perp MN。", "completion": "计算得到 EF 垂直于 MN。", "category": "geometry", "rule_ref": "计算得到 E F 垂直于 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\begin{pmatrix} 8 & 6 & 2 \\\\ 9 & 4 & 7 \\end{pmatrix}。", "completion": "由此可知 矩阵，第一行八、六、二，第二行九、四、七。", "category": "matrix", "rule_ref": "由此可知 矩阵，第 一 行 八、六、二，第 二 行 九、四、七。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\begin{bmatrix} a & a \\\\ c & x \\end{bmatrix} 可求出结果。", "completion": "根据公式，矩阵 a、a；c、x 可求出结果。", "category": "matrix", "rule_ref": "根据公式 矩阵，第 一 行 a、a，第 二 行 c、x 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\begin{vmatrix} a & 6 \\\\ a & n \\end{vmatrix}。", "completion": "代入得 行列式，第一行 a、六，第二行 a、n。", "category": "determinant", "rule_ref": "代入得 行列式，第 一 行 a、六，第 二 行 a、n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\triangle DEF \\cong \\triangle PQR。", "completion": "即 三角形 DEF 全等于 三角形 PQR。", "category": "geometry", "rule_ref": "即 三角形 D E F 全等于 三角形 P Q R。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 41\\%。", "completion": "联立可得 百分之 四一。", "category": "percent", "rule_ref": "联立可得 百分之 四一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 60\\%，所以选 D。", "completion": "因为百分之六十，所以选择 D。", "category": "percent", "rule_ref": "因为 百分之 六零，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\binom{8}{3}。", "completion": "计算得到 从八选三的组合数。", "category": "binom", "rule_ref": "计算得到 八 取 三 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 CD \\parallel EF。", "completion": "联立可得 线段 CD 与线段 EF 平行。", "category": "geometry", "rule_ref": "联立可得 C D 平行于 E F。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\begin{vmatrix} 5 & 3 \\\\ 7 & 4 \\end{vmatrix}。", "completion": "接下来计算 行列式，五、三，七、四。", "category": "determinant", "rule_ref": "接下来计算 行列式，第 一 行 五、三，第 二 行 七、四。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 f(c) = c^2。", "completion": "即 f(c) 等于 c 的平方。", "category": "function", "rule_ref": "即 f c 等于 c 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 g(a) = a^2。", "completion": "于是 g(a) 等于 a 的平方。", "category": "function", "rule_ref": "于是 g a 等于 a 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\lim_{c \\to 4} \\frac{c^2 - 4}{c} 可求出结果。", "completion": "根据公式 当 c 趋向于 四 时，c 的平方减四 除以 c 的极限，可以求出结果。", "category": "limit", "rule_ref": "根据公式 当 c 趋向于 四 时，c 分之 c 减 四 的极限 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\begin{bmatrix} y & b \\\\ y & n \\end{bmatrix} 可求出结果。", "completion": "根据公式，矩阵 y、b 在上，y、n 在下，可以求出结果。", "category": "matrix", "rule_ref": "根据公式 矩阵，第 一 行 y、b，第 二 行 y、n 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\binom{x}{x}。", "completion": "即 x 选 x。", "category": "binom", "rule_ref": "即 x 取 x 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\triangle PQR \\sim \\triangle DEF。", "completion": "由此可知 三角形 PQR 相似于 三角形 DEF。", "category": "geometry", "rule_ref": "由此可知 三角形 P Q R 相似于 三角形 D E F。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\overrightarrow{PQ}。", "completion": "化简可得 向量 PQ。", "category": "vector", "rule_ref": "化简可得 向量 P Q。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\log_{3} 6。", "completion": "这一步要注意 以三为底六的对数。", "category": "log", "rule_ref": "这一步要注意 以 三 为底 六 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\overrightarrow{PQ}。", "completion": "两边化简之后得到 向量 PQ。", "category": "vector", "rule_ref": "两边化简后得 向量 P Q。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 57\\%。", "completion": "计算得到 五十七百分之。", "category": "percent", "rule_ref": "计算得到 百分之 五七。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\lim_{c \\to 5} \\frac{\\sin c}{c}。", "completion": "接下来计算 当 c 趋向于 五 时，c 分之 sin c 的极限。", "category": "limit", "rule_ref": "接下来计算 当 c 趋向于 五 时，c 分之 sin c 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 CD \\parallel AB。", "completion": "化简之后可以得到 CD 平行于 AB。", "category": "geometry", "rule_ref": "化简可得 C D 平行于 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 B \\cap C。", "completion": "这一步要注意 B 与 C 的交集。", "category": "set", "rule_ref": "这一步要注意 B 交 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 \\begin{pmatrix} n & b \\\\ y & y \\end{pmatrix}。", "completion": "接下来计算 矩阵，第 一 行 n、b，第 二 行 y、y。", "category": "matrix", "rule_ref": "接下来计算 矩阵，第 一 行 n、b，第 二 行 y、y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\log_{2} 9。", "completion": "根据题意，以二为底九的对数。", "category": "log", "rule_ref": "根据题意得 以 二 为底 九 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\binom{x}{a}。", "completion": "注意到 x 选 a 的组合数。", "category": "binom", "rule_ref": "注意到 x 取 a 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 C \\cup B 可求出结果。", "completion": "根据公式 C 并上 B 可以求出结果。", "category": "set", "rule_ref": "根据公式 C 并 B 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\begin{bmatrix} n & x \\\\ x & n \\end{bmatrix}。", "completion": "计算得到 矩阵，第一行 n 和 x，第二行 x 和 n。", "category": "matrix", "rule_ref": "计算得到 矩阵，第 一 行 n、x，第 二 行 x、n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\begin{bmatrix} c & a \\\\ a & a \\end{bmatrix}。", "completion": "计算得到 矩阵，第一行 c、a，第二行 a、a。", "category": "matrix", "rule_ref": "计算得到 矩阵，第 一 行 c、a，第 二 行 a、a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\binom{n}{c}。", "completion": "化简可得 从 n 个里面选 c 个的组合数。", "category": "binom", "rule_ref": "化简可得 n 取 c 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 EF \\parallel MN。", "completion": "这一步要注意 EF 平行于 MN。", "category": "geometry", "rule_ref": "这一步要注意 E F 平行于 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 n! 可知，答案选 C。", "completion": "由 n 的阶乘可知，答案选择 C。", "category": "factorial", "rule_ref": "由 n 的阶乘 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\begin{pmatrix} x & y \\\\ b & y \\end{pmatrix}，所以选 A。", "completion": "因为矩阵，第一行 x、y，第二行 b、y，所以选择 A。", "category": "matrix", "rule_ref": "因为 矩阵，第 一 行 x、y，第 二 行 b、y，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 x!。", "completion": "这一步要注意 x 的阶乘。", "category": "factorial", "rule_ref": "这一步要注意 x 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\begin{pmatrix} 6 & 7 & 7 \\\\ 1 & 6 & 4 \\end{pmatrix}。", "completion": "这一步要注意 矩阵，第 一 行 六、七、七，第 二 行 一、六、四。", "category": "matrix", "rule_ref": "这一步要注意 矩阵，第 一 行 六、七、七，第 二 行 一、六、四。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 8!。", "completion": "接下来计算 八 的阶乘。", "category": "factorial", "rule_ref": "接下来计算 八 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\begin{pmatrix} 6 & 8 & 3 \\\\ 3 & 1 & 1 \\end{pmatrix}。", "completion": "整理得 矩阵，第 一 行 六、八、三，第 二 行 三、一、一。", "category": "matrix", "rule_ref": "整理得 矩阵，第 一 行 六、八、三，第 二 行 三、一、一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 EF \\parallel AB。", "completion": "两边化简之后得出 EF 平行于 AB。", "category": "geometry", "rule_ref": "两边化简后得 E F 平行于 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 EF \\perp MN。", "completion": "根据题意，EF 垂直于 MN。", "category": "geometry", "rule_ref": "根据题意得 E F 垂直于 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\ln y。", "completion": "即 对 y 取自然对数。", "category": "log", "rule_ref": "即 y 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 C \\cap A。", "completion": "联立可得 C 与 A 的交集。", "category": "set", "rule_ref": "联立可得 C 交 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 a!，所以选 B。", "completion": "因为 a 的阶乘，所以选择 B。", "category": "factorial", "rule_ref": "因为 a 的阶乘，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\binom{7}{2}。", "completion": "解得 七选二的组合数。", "category": "binom", "rule_ref": "解得 七 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\begin{pmatrix} 7 & 6 & 6 \\\\ 8 & 3 & 2 \\end{pmatrix}，所以选 A。", "completion": "因为矩阵，第一行七、六、六，第二行八、三、二，所以选择 A。", "category": "matrix", "rule_ref": "因为 矩阵，第 一 行 七、六、六，第 二 行 八、三、二，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\binom{5}{2}。", "completion": "根据题意，五选二的组合数。", "category": "binom", "rule_ref": "根据题意得 五 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 30\\%，所以选 B。", "completion": "原式可以化为百分之三十，所以选择 B。", "category": "percent", "rule_ref": "原式可化为 百分之 三零，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\triangle DEF \\cong \\triangle PQR，所以选 A。", "completion": "原式可以转化为三角形 DEF 全等于 三角形 PQR，所以选择 A。", "category": "geometry", "rule_ref": "原式可化为 三角形 D E F 全等于 三角形 P Q R，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 6!。", "completion": "这一步要注意 六 的阶乘。", "category": "factorial", "rule_ref": "这一步要注意 六 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\lim_{b \\to 3} \\frac{\\sin b}{b}。", "completion": "根据题意，当 b 趋向于 三 时，b 分之 sin b 的极限。", "category": "limit", "rule_ref": "根据题意得 当 b 趋向于 三 时，b 分之 sin b 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 CD \\perp MN。", "completion": "整理得 CD 垂直于 MN。", "category": "geometry", "rule_ref": "整理得 C D 垂直于 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 79\\%，所以选 A。", "completion": "原式可以化为百分之七十九，所以选择 A。", "category": "percent", "rule_ref": "原式可化为 百分之 七九，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\vec{a}。", "completion": "代入得 向量 a。", "category": "vector", "rule_ref": "代入得 向量 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\begin{pmatrix} 4 & 8 & 3 \\\\ 4 & 1 & 7 \\end{pmatrix}。", "completion": "联立可得 矩阵，第一行四、八、三，第二行四、一、七。", "category": "matrix", "rule_ref": "联立可得 矩阵，第 一 行 四、八、三，第 二 行 四、一、七。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\begin{bmatrix} a & y \\\\ x & y \\end{bmatrix}，所以选 B。", "completion": "原式可以化简成 矩阵，第一行 a 和 y，第二行 x 和 y，所以选择 B。", "category": "matrix", "rule_ref": "原式可化为 矩阵，第 一 行 a、y，第 二 行 x、y，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\binom{7}{3}。", "completion": "计算得到 从七选三的组合数。", "category": "binom", "rule_ref": "计算得到 七 取 三 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\binom{c}{b}，所以选 A。", "completion": "因为 c 选 b 的组合数，所以选择 A。", "category": "binom", "rule_ref": "因为 c 取 b 的组合数，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\binom{b}{n}。", "completion": "化简可得 从 b 中选 n 的组合数。", "category": "binom", "rule_ref": "化简可得 b 取 n 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 g(x) = x^2。", "completion": "联立可得 函数 g(x) 等于 x 的平方。", "category": "function", "rule_ref": "联立可得 g x 等于 x 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\overrightarrow{PQ} 可求出结果。", "completion": "根据公式 向量 PQ，可以求出结果。", "category": "vector", "rule_ref": "根据公式 向量 P Q 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\vec{n}。", "completion": "根据题意，得到向量 n。", "category": "vector", "rule_ref": "根据题意得 向量 n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 x! 可知，答案选 B。", "completion": "由 x 的阶乘可知，答案选择 B。", "category": "factorial", "rule_ref": "由 x 的阶乘 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 AB \\perp EF。", "completion": "化简之后可以得到 AB 垂直于 EF。", "category": "geometry", "rule_ref": "化简可得 A B 垂直于 E F。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 40\\%。", "completion": "代入得 百分之 四零。", "category": "percent", "rule_ref": "代入得 百分之 四零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\begin{pmatrix} n & b \\\\ x & n \\end{pmatrix}。", "completion": "解得 矩阵，第 一 行 n、b，第 二 行 x、n。", "category": "matrix", "rule_ref": "解得 矩阵，第 一 行 n、b，第 二 行 x、n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\begin{pmatrix} 5 & 4 & 4 \\\\ 8 & 4 & 5 \\end{pmatrix}。", "completion": "于是 矩阵，第 一 行 五、四、四，第 二 行 八、四、五。", "category": "matrix", "rule_ref": "于是 矩阵，第 一 行 五、四、四，第 二 行 八、四、五。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\ln c。", "completion": "两边化简后得到 自然对数 c。", "category": "log", "rule_ref": "两边化简后得 c 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 f(2n)。", "completion": "解得 f 的 2n 次方。", "category": "function", "rule_ref": "解得 f 二 n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\vec{c}。", "completion": "注意到 向量 c。", "category": "vector", "rule_ref": "注意到 向量 c。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 g(c + 1)。", "completion": "即 g 括号 c 加 一。", "category": "function", "rule_ref": "即 g c 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\lim_{a \\to 1} \\frac{\\ln(1 + a)}{a}。", "completion": "代入得 当 a 趋向于 一 时，ln(1 + a) 除以 a 的极限。", "category": "limit", "rule_ref": "代入得 当 a 趋向于 一 时，a 分之 ln 括号 一 加 a 闭括号 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 y!。", "completion": "化简可得 y 的阶乘。", "category": "factorial", "rule_ref": "化简可得 y 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\lim_{b \\to 5} \\frac{\\sin b}{b}。", "completion": "联立可得 当 b 趋向于 五 时，b 分之 sin b 的极限。", "category": "limit", "rule_ref": "联立可得 当 b 趋向于 五 时，b 分之 sin b 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\begin{vmatrix} 3 & y \\\\ a & y \\end{vmatrix}。", "completion": "这一步要注意 行列式，第一行三、y，第二行 a、y。", "category": "determinant", "rule_ref": "这一步要注意 行列式，第 一 行 三、y，第 二 行 a、y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\binom{9}{3}，所以选 A。", "completion": "原式可以化简为 九选三的组合数，所以选择 A。", "category": "binom", "rule_ref": "原式可化为 九 取 三 的组合数，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\vec{a}。", "completion": "最终得到 向量 a。", "category": "vector", "rule_ref": "最终得到 向量 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\begin{pmatrix} 1 & 5 & 9 \\\\ 5 & 5 & 6 \\end{pmatrix}，所以选 A。", "completion": "因为矩阵，第一行一、五、九，第二行五、五、六，所以选择 A。", "category": "matrix", "rule_ref": "因为 矩阵，第 一 行 一、五、九，第 二 行 五、五、六，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 y! 可知，答案选 C。", "completion": "由 y 的阶乘可知，答案选择 C。", "category": "factorial", "rule_ref": "由 y 的阶乘 可知，答案选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\overrightarrow{MN}。", "completion": "注意到 向量 M N。", "category": "vector", "rule_ref": "注意到 向量 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\log_{3} 3。", "completion": "代入得 以三为底三的对数。", "category": "log", "rule_ref": "代入得 以 三 为底 三 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 A \\cup C。", "completion": "整理得 A 并 C。", "category": "set", "rule_ref": "整理得 A 并 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\emptyset。", "completion": "由此可知 空集。", "category": "set", "rule_ref": "由此可知 空集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 80\\% 可求出结果。", "completion": "根据公式百分之八十，可以求出结果。", "category": "percent", "rule_ref": "根据公式 百分之 八零 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\begin{bmatrix} a & b \\\\ x & x \\end{bmatrix}。", "completion": "计算得到 矩阵，第一行 a、b，第二行 x、x。", "category": "matrix", "rule_ref": "计算得到 矩阵，第 一 行 a、b，第 二 行 x、x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\vec{y}。", "completion": "代入得 向量 y。", "category": "vector", "rule_ref": "代入得 向量 y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 g(2a)。", "completion": "由此可知 g 括号二 a。", "category": "function", "rule_ref": "由此可知 g 二 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 B \\cup C 可知，答案选 B。", "completion": "由 B 与 C 的并集可知，答案选择 B。", "category": "set", "rule_ref": "由 B 并 C 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 C \\cup A。", "completion": "两边化简之后得到 C 并集 A。", "category": "set", "rule_ref": "两边化简后得 C 并 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\binom{n}{n}。", "completion": "最终得到 从 n 个元素中选 n 个的组合数。", "category": "binom", "rule_ref": "最终得到 n 取 n 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 y!。", "completion": "于是 y 的阶乘。", "category": "factorial", "rule_ref": "于是 y 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\binom{8}{2}。", "completion": "解得 从八选二的组合数。", "category": "binom", "rule_ref": "解得 八 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\lim_{x \\to 5} \\frac{x^2 - 5}{x}。", "completion": "最终得到 当 x 趋向于 五 时，x 的平方减五 除以 x 的极限。", "category": "limit", "rule_ref": "最终得到 当 x 趋向于 五 时，x 分之 x 减 五 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\lim_{b \\to 3} \\frac{b^2 - 3}{b}。", "completion": "根据题意，当 b 趋向于 三 时，b 的平方减三 除以 b 的极限。", "category": "limit", "rule_ref": "根据题意得 当 b 趋向于 三 时，b 分之 b 减 三 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\lim_{y \\to 1} \\frac{\\sin y}{y}。", "completion": "由此可知 当 y 趋向于 一 时，y 分之 sin y 的极限。", "category": "limit", "rule_ref": "由此可知 当 y 趋向于 一 时，y 分之 sin y 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 g(x + 1) 可求出结果。", "completion": "根据公式 g 括号 x 加一，可以求出结果。", "category": "function", "rule_ref": "根据公式 g x 加 一 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\log_{3} 6。", "completion": "化简可得 以三为底六的对数。", "category": "log", "rule_ref": "化简可得 以 三 为底 六 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\vec{x}。", "completion": "联立可得 向量 x。", "category": "vector", "rule_ref": "联立可得 向量 x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\ln x 可求出结果。", "completion": "根据公式 自然对数 x 可以求出结果。", "category": "log", "rule_ref": "根据公式 x 的自然对数 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 31\\%。", "completion": "两边化简之后得到百分之 三十一。", "category": "percent", "rule_ref": "两边化简后得 百分之 三一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 CD \\perp MN。", "completion": "两边化简之后得出 CD 垂直于 MN。", "category": "geometry", "rule_ref": "两边化简后得 C D 垂直于 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\ln y，所以选 D。", "completion": "因为 对 y 取自然对数，所以选择 D。", "category": "log", "rule_ref": "因为 y 的自然对数，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\begin{vmatrix} 7 & n \\\\ 7 & 1 \\end{vmatrix}。", "completion": "注意到 行列式，七、n，七、一。", "category": "determinant", "rule_ref": "注意到 行列式，第 一 行 七、n，第 二 行 七、一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 93\\%。", "completion": "联立可得 百分之 九三。", "category": "percent", "rule_ref": "联立可得 百分之 九三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：接下来计算 B \\cup C。", "completion": "接下来计算 B 并集 C。", "category": "set", "rule_ref": "接下来计算 B 并 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\ln x。", "completion": "整理得 以 x 为底的对数。", "category": "log", "rule_ref": "整理得 x 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\begin{pmatrix} y & x \\\\ x & x \\end{pmatrix}。", "completion": "化简可得 矩阵，第一行 y、x，第二行 x、x。", "category": "matrix", "rule_ref": "化简可得 矩阵，第 一 行 y、x，第 二 行 x、x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 6!。", "completion": "最终得到 六 的阶乘。", "category": "factorial", "rule_ref": "最终得到 六 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\overrightarrow{AB}。", "completion": "根据题意，向量 AB。", "category": "vector", "rule_ref": "根据题意得 向量 A B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\begin{bmatrix} y & y \\\\ y & y \\end{bmatrix}。", "completion": "两边化简后得到 矩阵，第一行 y、y，第二行 y、y。", "category": "matrix", "rule_ref": "两边化简后得 矩阵，第 一 行 y、y，第 二 行 y、y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\lim_{y \\to 4} \\frac{\\sin y}{y}。", "completion": "化简可得 当 y 趋向于 四 时，y 分之 sin y 的极限。", "category": "limit", "rule_ref": "化简可得 当 y 趋向于 四 时，y 分之 sin y 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\begin{vmatrix} c & 5 \\\\ 6 & n \\end{vmatrix}，所以选 B。", "completion": "因为 行列式 c 乘 n 减五乘六，所以选择 B。", "category": "determinant", "rule_ref": "因为 行列式，第 一 行 c、五，第 二 行 六、n，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 AB \\parallel CD。", "completion": "由此可知 AB 平行于 CD。", "category": "geometry", "rule_ref": "由此可知 A B 平行于 C D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 CD \\parallel AB 可知，答案选 B。", "completion": "由 CD 平行于 AB 可知，答案选择 B。", "category": "geometry", "rule_ref": "由 C D 平行于 A B 可知，答案选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\lim_{y \\to 3} \\frac{y^2 - 3}{y}，所以选 A。", "completion": "原式可以化简为 当 y 趋向于 三 时，y 的平方减三 除以 y 的极限，所以选择 A。", "category": "limit", "rule_ref": "原式可化为 当 y 趋向于 三 时，y 分之 y 减 三 的极限，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\begin{pmatrix} n & a \\\\ n & c \\end{pmatrix}，所以选 D。", "completion": "原式可以化简成 矩阵，第一行 n 和 a，第二行 n 和 c，所以选择 D。", "category": "matrix", "rule_ref": "原式可化为 矩阵，第 一 行 n、a，第 二 行 n、c，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\begin{pmatrix} n & a \\\\ n & x \\end{pmatrix}。", "completion": "由此可知 矩阵，第 一 行 n、a，第 二 行 n、x。", "category": "matrix", "rule_ref": "由此可知 矩阵，第 一 行 n、a，第 二 行 n、x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\ln a。", "completion": "计算得到 以 a 为底的对数。", "category": "log", "rule_ref": "计算得到 a 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 f(x + 1)。", "completion": "即 f 括号 x 加 一。", "category": "function", "rule_ref": "即 f x 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 g(y) = y^2。", "completion": "计算得到 g(y) 等于 y 的平方。", "category": "function", "rule_ref": "计算得到 g y 等于 y 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 50^\\circ。", "completion": "化简可得 五零度。", "category": "percent", "rule_ref": "化简可得 五零 度。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 c!。", "completion": "两边化简后得到 c 的阶乘。", "category": "factorial", "rule_ref": "两边化简后得 c 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 3^\\circ 可求出结果。", "completion": "根据公式 三度，可以求出结果。", "category": "percent", "rule_ref": "根据公式 三 度 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 \\begin{vmatrix} 7 & 7 \\\\ 3 & 3 \\end{vmatrix}。", "completion": "联立可得 行列式，第一行七、七，第二行三、三。", "category": "determinant", "rule_ref": "联立可得 行列式，第 一 行 七、七，第 二 行 三、三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 b!。", "completion": "最终得到 b 的阶乘。", "category": "factorial", "rule_ref": "最终得到 b 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 C \\cup B。", "completion": "最终得到 C 并上 B。", "category": "set", "rule_ref": "最终得到 C 并 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 \\begin{vmatrix} 4 & 1 \\\\ b & a \\end{vmatrix}。", "completion": "两边化简之后得到 行列式，四、一，b、a。", "category": "determinant", "rule_ref": "两边化简后得 行列式，第 一 行 四、一，第 二 行 b、a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 x!。", "completion": "由此可知 x 的阶乘。", "category": "factorial", "rule_ref": "由此可知 x 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 h(a) = a^2。", "completion": "计算得到 h(a) 等于 a 的平方。", "category": "function", "rule_ref": "计算得到 h a 等于 a 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 c!。", "completion": "化简可得 c 的阶乘。", "category": "factorial", "rule_ref": "化简可得 c 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\lim_{a \\to 4} \\frac{\\sin a}{a}。", "completion": "代入得 当 a 趋向于 四 时，a 分之 sin a 的极限。", "category": "limit", "rule_ref": "代入得 当 a 趋向于 四 时，a 分之 sin a 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\lim_{b \\to 0} \\frac{\\sin b}{b}。", "completion": "于是 当 b 趋向于 零 时，b 分之 sin b 的极限。", "category": "limit", "rule_ref": "于是 当 b 趋向于 零 时，b 分之 sin b 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 22\\%。", "completion": "根据题意，结果是百分之二十二。", "category": "percent", "rule_ref": "根据题意得 百分之 二二。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{pmatrix} 5 & 1 & 2 \\\\ 1 & 4 & 2 \\end{pmatrix}。", "completion": "根据题意得 矩阵，第一行五、一、二，第二行一、四、二。", "category": "matrix", "rule_ref": "根据题意得 矩阵，第 一 行 五、一、二，第 二 行 一、四、二。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\lim_{b \\to 5} \\frac{\\sin b}{b}。", "completion": "根据题意，当 b 趋向于 五 时，b 分之 sin b 的极限。", "category": "limit", "rule_ref": "根据题意得 当 b 趋向于 五 时，b 分之 sin b 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 90\\%。", "completion": "由此可知 百分之 九零。", "category": "percent", "rule_ref": "由此可知 百分之 九零。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 f(b) = b^2 可知，答案选 D。", "completion": "由 f(b) 等于 b 的平方 可知，答案选择 D。", "category": "function", "rule_ref": "由 f b 等于 b 平方 可知，答案选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 1\\%。", "completion": "这一步要注意 百分之一。", "category": "percent", "rule_ref": "这一步要注意 百分之 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 b!，所以选 C。", "completion": "因为 b 的阶乘，所以选择 C。", "category": "factorial", "rule_ref": "因为 b 的阶乘，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\log_{2} 7 可求出结果。", "completion": "根据公式 以二为底七的对数，可以求出结果。", "category": "log", "rule_ref": "根据公式 以 二 为底 七 的对数 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 b!。", "completion": "联立可得 b 的阶乘。", "category": "factorial", "rule_ref": "联立可得 b 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\begin{pmatrix} 9 & 3 & 9 \\\\ 2 & 3 & 7 \\end{pmatrix}。", "completion": "即 矩阵，第一行九、三、九，第二行二、三、七。", "category": "matrix", "rule_ref": "即 矩阵，第 一 行 九、三、九，第 二 行 二、三、七。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\binom{8}{2} 代入原式，即可求解。", "completion": "将 八选二 的组合数 代入原式，就可以求解了。", "category": "binom", "rule_ref": "将 八 取 二 的组合数 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据公式 \\binom{x}{y} 可求出结果。", "completion": "根据公式 x 选 y 的组合数，可以求出结果。", "category": "binom", "rule_ref": "根据公式 x 取 y 的组合数 可求出结果。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 f(2a)。", "completion": "注意到 f 括号里是 2a。", "category": "function", "rule_ref": "注意到 f 二 a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\log_{3} 3。", "completion": "即 以三为底三的对数。", "category": "log", "rule_ref": "即 以 三 为底 三 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\begin{bmatrix} n & y \\\\ n & a \\end{bmatrix}。", "completion": "即 矩阵，第一行 n、y，第二行 n、a。", "category": "matrix", "rule_ref": "即 矩阵，第 一 行 n、y，第 二 行 n、a。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 C \\cup B。", "completion": "计算得到 C 并集 B。", "category": "set", "rule_ref": "计算得到 C 并 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 60\\%，所以选 B。", "completion": "原式可以化简为百分之六十，所以选择 B。", "category": "percent", "rule_ref": "原式可化为 百分之 六零，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\overrightarrow{MN}，所以选 B。", "completion": "原式可以化为 向量 M N，所以选择 B。", "category": "vector", "rule_ref": "原式可化为 向量 M N，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 x \\in \\mathbb{R}。", "completion": "代入得 x 属于实数集。", "category": "set", "rule_ref": "代入得 x 属于 实数集。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\binom{x}{a}，所以选 C。", "completion": "因为 x 选 a 的组合数，所以选择 C。", "category": "binom", "rule_ref": "因为 x 取 a 的组合数，所以选 C。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\vec{x}。", "completion": "根据题意，向量 x。", "category": "vector", "rule_ref": "根据题意得 向量 x。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：注意到 \\begin{pmatrix} x & a \\\\ y & n \\end{pmatrix}。", "completion": "注意到 矩阵，第 一 行 x、a，第 二 行 y、n。", "category": "matrix", "rule_ref": "注意到 矩阵，第 一 行 x、a，第 二 行 y、n。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{pmatrix} c & b \\\\ c & y \\end{pmatrix}。", "completion": "根据题意，得到矩阵，第一行 c、b，第二行 c、y。", "category": "matrix", "rule_ref": "根据题意得 矩阵，第 一 行 c、b，第 二 行 c、y。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 3!，所以选 A。", "completion": "因为 三 的阶乘，所以选择 A。", "category": "factorial", "rule_ref": "因为 三 的阶乘，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 f(c^2) 可知，答案选 D。", "completion": "由 f 括号 c 的平方 可知，答案选择 D。", "category": "function", "rule_ref": "由 f c 可知，答案选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\log_{3} 9。", "completion": "这一步要注意 以三为底九的对数。", "category": "log", "rule_ref": "这一步要注意 以 三 为底 九 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\binom{y}{a}。", "completion": "这一步要注意 组合数，y 选 a。", "category": "binom", "rule_ref": "这一步要注意 y 取 a 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 \\begin{pmatrix} a & a \\\\ y & c \\end{pmatrix} 可知，答案选 A。", "completion": "由 矩阵，第一行 a、a，第二行 y、c，可知答案选 A。", "category": "matrix", "rule_ref": "由 矩阵，第 一 行 a、a，第 二 行 y、c 可知，答案选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\begin{pmatrix} 6 & 4 & 8 \\\\ 1 & 6 & 7 \\end{pmatrix} 代入原式，即可求解。", "completion": "将 矩阵 六、四、八，一行；一、六、七，二行，代入原式，即可求解。", "category": "matrix", "rule_ref": "将 矩阵，第 一 行 六、四、八，第 二 行 一、六、七 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 \\begin{vmatrix} 2 & 7 \\\\ 1 & 7 \\end{vmatrix}。", "completion": "解得 行列式，第一行二、七，第二行一、七。", "category": "determinant", "rule_ref": "解得 行列式，第 一 行 二、七，第 二 行 一、七。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由 1\\% 可知，答案选 A。", "completion": "由百分之一 可知，答案选择 A。", "category": "percent", "rule_ref": "由 百分之 一 可知，答案选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 \\overrightarrow{MN}，所以选 A。", "completion": "原式可以化为 向量 M N，所以选择 A。", "category": "vector", "rule_ref": "原式可化为 向量 M N，所以选 A。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 EF \\parallel MN。", "completion": "化简之后可以得到 EF 平行于 MN。", "category": "geometry", "rule_ref": "化简可得 E F 平行于 M N。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：解得 f(c) = c^2。", "completion": "解得 f(c) 等于 c 的平方。", "category": "function", "rule_ref": "解得 f c 等于 c 平方。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\binom{a}{x} 代入原式，即可求解。", "completion": "将 a 选 x 的组合数代入原式，就可以求解了。", "category": "binom", "rule_ref": "将 a 取 x 的组合数 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 g(y + 1)。", "completion": "计算得到 g 函数作用于 y 加一的结果。", "category": "function", "rule_ref": "计算得到 g y 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\binom{y}{b}。", "completion": "计算得到 y 选 b 的组合数。", "category": "binom", "rule_ref": "计算得到 y 取 b 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：这一步要注意 \\binom{9}{2}。", "completion": "这一步要注意，九选二的组合数。", "category": "binom", "rule_ref": "这一步要注意 九 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 9!。", "completion": "于是 九的阶乘。", "category": "factorial", "rule_ref": "于是 九 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：联立可得 f(y + 1)。", "completion": "联立可得 f 括号 y 加 一 括号。", "category": "function", "rule_ref": "联立可得 f y 加 一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\triangle PQR \\sim \\triangle ABC 代入原式，即可求解。", "completion": "将三角形 PQR 相似于三角形 ABC 代入原式，就可以求解了。", "category": "geometry", "rule_ref": "将 三角形 P Q R 相似于 三角形 A B C 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 9!。", "completion": "化简可得 九的阶乘。", "category": "factorial", "rule_ref": "化简可得 九 的阶乘。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 x!，所以选 D。", "completion": "因为 x 的阶乘，所以选择 D。", "category": "factorial", "rule_ref": "因为 x 的阶乘，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\binom{b}{a}。", "completion": "代入得 组合数，b 选 a。", "category": "binom", "rule_ref": "代入得 b 取 a 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：代入得 \\ln a。", "completion": "代入得 以 e 为底 a 的自然对数。", "category": "log", "rule_ref": "代入得 a 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\overrightarrow{CD}。", "completion": "计算得到 向量 CD。", "category": "vector", "rule_ref": "计算得到 向量 C D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：计算得到 \\begin{pmatrix} 6 & 7 & 6 \\\\ 3 & 5 & 2 \\end{pmatrix}。", "completion": "计算得到 矩阵，第一行六、七、六，第二行三、五、二。", "category": "matrix", "rule_ref": "计算得到 矩阵，第 一 行 六、七、六，第 二 行 三、五、二。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：整理得 \\binom{a}{b}。", "completion": "整理得 a 选 b 的组合数。", "category": "binom", "rule_ref": "整理得 a 取 b 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：由此可知 \\lim_{b \\to 5} \\frac{\\sin b}{b}。", "completion": "由此可知 当 b 趋向于 五 时，b 分之 sin b 的极限。", "category": "limit", "rule_ref": "由此可知 当 b 趋向于 五 时，b 分之 sin b 的极限。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：原式可化为 A \\cap C，所以选 B。", "completion": "原式可以化简为 A 与 C 的交集，所以选择 B。", "category": "set", "rule_ref": "原式可化为 A 交 C，所以选 B。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\ln n。", "completion": "化简可得 以 e 为底 n 的自然对数。", "category": "log", "rule_ref": "化简可得 n 的自然对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：即 \\begin{vmatrix} x & x \\\\ 2 & 1 \\end{vmatrix}。", "completion": "即 行列式，第一列 x、x，第二列 2、1。", "category": "determinant", "rule_ref": "即 行列式，第 一 行 x、x，第 二 行 二、一。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：根据题意得 \\begin{vmatrix} 8 & 9 \\\\ c & 4 \\end{vmatrix}。", "completion": "根据题意，行列式，八、九，c、四。", "category": "determinant", "rule_ref": "根据题意得 行列式，第 一 行 八、九，第 二 行 c、四。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：因为 \\binom{5}{2}，所以选 D。", "completion": "因为五选二，所以选择 D。", "category": "binom", "rule_ref": "因为 五 取 二 的组合数，所以选 D。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：化简可得 \\begin{vmatrix} 8 & a \\\\ 8 & 3 \\end{vmatrix}。", "completion": "化简可得 行列式，第一行八、a，第二行八、三。", "category": "determinant", "rule_ref": "化简可得 行列式，第 一 行 八、a，第 二 行 八、三。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：最终得到 \\overrightarrow{PQ}。", "completion": "最终得到 向量 PQ。", "category": "vector", "rule_ref": "最终得到 向量 P Q。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：将 \\log_{3} 5 代入原式，即可求解。", "completion": "将 以三为底五的对数 代入原式，即可求解。", "category": "log", "rule_ref": "将 以 三 为底 五 的对数 代入原式，即可求解。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\log_{3} 2。", "completion": "于是 以三为底二的对数。", "category": "log", "rule_ref": "于是 以 三 为底 二 的对数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：于是 \\binom{8}{2}。", "completion": "于是 八选二的组合数。", "category": "binom", "rule_ref": "于是 八 取 二 的组合数。"}
+{"prompt": "将讲解中的公式改写为适合语音朗读的中文口语，只输出改写后的整句：\n原句：两边化简后得 9!。", "completion": "两边化简后得到 九 的阶乘。", "category": "factorial", "rule_ref": "两边化简后得 九 的阶乘。"}

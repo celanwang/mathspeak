@@ -119,6 +119,7 @@ def main() -> None:
     ap.add_argument("--test-file", default="", help="默认 data/test.jsonl")
     ap.add_argument("--meta-file", default="", help="默认 data/test_meta.jsonl")
     ap.add_argument("--limit", type=int, default=0, help="只评前 N 条（冒烟用）")
+    ap.add_argument("--adapter", default=ADAPTER, help="LoRA adapter 目录")
     ap.add_argument("--out", default="results/eval_report.md")
     ap.add_argument("--dump", default="", help="原始输出转储路径（json，供 verify.py）")
     args = ap.parse_args()
@@ -150,7 +151,7 @@ def main() -> None:
             results["B"] = score(outputs["B"], refs, speeches)
         del model
     if "C" in args.groups:
-        model, tok = load(BASE_BF16, adapter_path=ADAPTER)
+        model, tok = load(BASE_BF16, adapter_path=args.adapter)
         outputs["C"] = run_group(model, tok, rows)
         results["C"] = score(outputs["C"], refs, speeches)
         del model

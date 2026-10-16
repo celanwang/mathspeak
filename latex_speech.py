@@ -470,7 +470,7 @@ def _seq_speech(segs: list, attach: bool) -> str:
 def to_speech(node: Node) -> str:
     k = node.kind
     if k == "seq":
-        return _seq_speech(node.val, attach=False)
+        return _seq_speech(node.val, attach=True)
     if k == "neg":
         return "负 " + to_speech(node.children[0])
     if k == "num":
@@ -639,6 +639,11 @@ _ATTACHABLE = ("var", "func", "group", "fap")
 
 
 def speech_of(node: Node) -> str:
+    # 单元素化学式：CO_2 类整体查名（seq 形式走 _transform_seq）
+    if node.kind == "var" and node.sub is not None and node.sub.kind == "num":
+        nm = CHEM_NAME.get(f"{node.val}_{node.sub.val}")
+        if nm:
+            return nm
     if node.kind == "seq":
         node = _transform_seq(node)
         if node.kind != "seq":
@@ -671,29 +676,44 @@ def _extend(text: str, i: int) -> int:
     """从已完成单元（命令/闭组）的位置继续吃：脚本、紧邻参数组、运算符延续。"""
     n = len(text)
     while True:
+        moved = False
+        # 脚本：^2 ^\circ ^{...} _{...}
         k = i
         while k < n and text[k] in "^_":
             k += 1
             if k < n and text[k] in "{[":
                 k = _balanced(text, k)
+            elif k < n and text[k] == "\\":
+                m2 = re.match(r"\\[a-zA-Z]+", text[k:])
+                k += len(m2.group(0)) if m2 else 1
             else:
                 k += 1
         if k > i:
             i = k
-        if i < n and text[i] in "{[":
+            moved = True
+        # 紧邻参数组：\frac{a}{b} 的第二个组、\sqrt[3]{x}
+        while i < n and text[i] in "{[":
             i = _balanced(text, i)
-            continue
-        break
-    while i < n and text[i] in " +-*/=<>&|":
-        i += 1
-        if i < n and text[i] == "\\":
-            sub = _consume_formula(text, i)
-            if sub == i:
-                break
-            i = sub
-        elif i < n and (text[i].isalnum() or text[i] == "."):
-            while i < n and (text[i].isalnum() or text[i] in " ."):
-                i += 1
+            moved = True
+        # 运算符延续：空格/运算符 + 后续单元
+        if i < n and text[i] in " +-*/=<>&|":
+            j = i
+            while j < n and text[j] in " +-*/=<>&|":
+                j += 1
+            if j < n and text[j] == "\\":
+                sub = _consume_formula(text, j)
+                if sub > j:
+                    i = sub
+                    moved = True
+                    continue
+            elif j < n and text[j].isascii() and (text[j].isalnum() or text[j] == "."):
+                i = j
+                while i < n and (text[i].isascii() and text[i].isalnum() or text[i] in " ."):
+                    i += 1
+                moved = True
+                continue
+        if not moved:
+            break
     return i
 
 
@@ -751,11 +771,19 @@ def find_formulas(text: str) -> list[tuple[int, int, str]]:
                 if not re.fullmatch(r"[A-Za-z]", run):
                     if (re.search(r"[\^_=+*/<>!]|\\", run)
                             or re.search(r"\d\.\d", run)
-                            or (" " in run and re.search(r"[=+*/<>]|\d", run))):
+                            or (" " in run and re.search(r"[=+*/<>]|\d", run))
+                            or (len(run) >= 2 and run[0].isupper()
+                                and re.fullmatch(r"[A-Za-z0-9_]+", run)
+                                and run != run.lower())):
                         spans.append((i, j, run))
                         i = j
                         continue
         i += 1
+    # 合并前导裸变量/数字与紧随的公式："b \leq 16"、"3 \times 4 = 12"
+    if spans:
+        prefix = text[:spans[0][0]]
+        if re.fullmatch(r"\s*[A-Za-z0-9]+\s*", prefix) and re.search(r"[A-Za-z0-9]", prefix):
+            spans[0] = (0, spans[0][1], text[:spans[0][1]])
     return spans
 
 

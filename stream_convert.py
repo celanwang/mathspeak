@@ -98,17 +98,24 @@ class StreamConverter:
     def _drain_once(self) -> tuple | None:
         if not self.buf:
             return None
-        # 1. tentative 段需要回滚检查
+        # 1. tentative 段：空格不算数，看去空白后的下一个字符再决策
         if self.tentative is not None:
             t = self.tentative
             head = self.buf.lstrip()
+            if not head:
+                return None  # 只有空白，等下一个 token
             if t.dollar and head.startswith("$"):
                 self._rollback("dollar")
                 return ("rollback", t.raw)
-            if head and (head[0] in CONT_CHARS or head[0] in SCRIPT_CHARS
-                         or head[0] == "\\" or head[0].isalnum()):
-                self._rollback("continuation")
-                return ("rollback", t.raw)
+            if head[0] in CONT_CHARS or head[0] in SCRIPT_CHARS \
+                    or head[0] == "\\" or (head[0].isascii() and head[0].isalnum()):
+                # 只有重扫后公式确实变长才回滚，否则等更多 token（延续可能没喂完）
+                candidate = t.raw + self.buf
+                spans = ls.find_formulas(candidate)
+                if spans and spans[0][0] == 0 and spans[0][1] > len(t.raw):
+                    self._rollback("continuation")
+                    return ("rollback", t.raw)
+                return None
             self._finalize_tentative()
             return None
         # 2. 缓冲区头部是中文/全角标点 -> 直接作为文本发出

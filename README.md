@@ -12,9 +12,13 @@ LLM 生成的讲解文本含有 `\frac{1}{2}`、`\sqrt{x}` 这类公式，TTS �
 |---|---|---|---|
 | A | 基座直调（4bit, zero-shot） | 0.0% | 0.5% |
 | B | prompt 工程（4bit, 3-shot） | 2.5% | 3.0% |
-| C | LoRA 后（bf16 + adapters） | 100.0% | 100.0% |
+| C | LoRA 后（bf16 + adapters，第一轮） | 100.0% | 100.0% |
+| C2 | LoRA 第二轮（+长尾蒸馏数据） | 99.5% | 99.5% |
 
-> 评测明细见 `results/eval_report.md`，结论与复现过程见 `RESULT.md`。
+长尾 OOD 测试集（11 类训练分布外公式，198 条）：adapter 完全匹配
+**7.1%（第一轮）→ 99.5%（第二轮）**。
+
+> 评测明细见 `results/`，结论与复现过程见 `RESULT.md`。
 
 ## 快速开始
 
@@ -38,6 +42,31 @@ export HF_ENDPOINT=https://hf-mirror.com
 
 # 3. 评测（A/B/C 三组）
 .venv/bin/python evaluate.py --groups A B C
+
+# 4. 生产链路组件
+.venv/bin/python stream_convert.py     # 流式增量转换（乐观转换+回滚+延迟报告）
+.venv/bin/python gen_ood_data.py       # 长尾 OOD 基准
+.venv/bin/python distill.py            # 教师蒸馏（21B 生成 + 硬检查过滤）
+.venv/bin/python router.py             # 端云路由（规则覆盖度）
+.venv/bin/python verify.py --dump results/outputs_eval.json  # 忠实性硬检查
+```
+
+## 架构
+
+```
+generate_data.py    规则模板数据生成器（8 类公式 × 20 句式）
+latex_speech.py     朗读规范唯一事实源：解析器 + 朗读生成 + SSML 桥接
+stream_convert.py   流式增量转换器（乐观转换 + 回滚，87% 整句一致，p95 0.004ms）
+gen_ood_data.py     长尾 OOD 冻结基准（11 类，参考由规范引擎产出）
+distill.py          教师蒸馏管线（21B 生成 → 守恒硬检查 → 训练集）
+router.py           端云路由（规则覆盖度决定端侧/云端）
+verify.py           忠实性硬检查（守恒原子缺一即否决）
+evaluate.py         A/B/C 三组评测（双指标 + badcase 归类 + 输出转储）
+data/               数据集（test/ood_test 冻结）
+adapters/           LoRA 权重（不入库）
+results/            评测与路由/流式/校验报告
+PLAN.md             执行计划
+RESULT.md           结果小结（含第二阶段数字总表）
 ```
 
 ## 数据
@@ -47,18 +76,8 @@ export HF_ENDPOINT=https://hf-mirror.com
 - 规则模板覆盖 8 类公式：分数、根式、上下标、希腊字母、运算与关系符、物理公式与单位、
   化学式、混合嵌套；嵌入 20 个讲题句式，数字/变量随机扰动。
 - `data/spot_check.txt`：100 条人工抽检样本。test 集从生成起冻结，训练与调优全程不碰。
-
-## 目录
-
-```
-generate_data.py   # 规则模板数据生成器
-evaluate.py        # A/B/C 三组评测（完全匹配 + 关键片段双指标）
-data/              # 数据集（test 冻结）
-adapters/          # LoRA 权重（不入库）
-results/           # 评测报告
-PLAN.md            # 执行计划
-RESULT.md          # 结果小结
-```
+- `data/ood_*.jsonl`：长尾 OOD 基准（极限/对数/矩阵/行列式/阶乘/组合数/几何/集合/
+  向量/百分号/函数），参考朗读由 latex_speech 规范引擎生成。
 
 ## 简历表述
 

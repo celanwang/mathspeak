@@ -5,6 +5,7 @@ __pycache__/
 
 # 模型与训练产物（体积大，不入库）
 adapters/
+adapters_round2/
 fused-model/
 *.safetensors
 *.gguf

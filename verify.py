@@ -22,8 +22,11 @@ from pathlib import Path
 import latex_speech as ls
 
 
-def collect_atoms(node: ls.Node, out: set[str]) -> None:
-    """从 AST 收集必须以口语形式出现在输出中的原子（与附着规范一致）。"""
+def collect_atoms(node: ls.Node, out: set) -> None:
+    """从 AST 收集必须以口语形式出现在输出中的原子（与附着规范一致）。
+
+    原子为 frozenset 时表示多选一（如元素符号 C 可读" C"或"碳"）。
+    """
     k = node.kind
     if k == "seq":
         for seg in node.val:
@@ -33,7 +36,19 @@ def collect_atoms(node: ls.Node, out: set[str]) -> None:
     if k == "num":
         out.add(ls.speak_number(node.val).replace(" ", ""))
     elif k == "var":
-        out.add(node.val)
+        v = node.val
+        # 元素符号：可读字母或物质名（下标一并折入）
+        if node.sub is not None and node.sub.kind == "num" and node.sub.sup is None:
+            key = f"{v}_{node.sub.val}"
+            nm = ls.CHEM_NAME.get(key)
+            out.add(frozenset((nm, v, ls.speak_number(node.sub.val))) if nm
+                    else frozenset((v, ls.speak_number(node.sub.val))))
+        elif len(v) == 1 and v.isupper():
+            nm = ls.CHEM_NAME.get(v)
+            out.add(frozenset((v, nm)) if nm else v)
+        else:
+            out.add(v)
+        return
     elif k == "greek":
         out.add(node.val)
     elif k == "cmd0":
@@ -90,7 +105,11 @@ def check_row(src: str, output: str) -> tuple[bool, list[str]]:
     if not atoms:
         return True, []
     n_out = norm(output)
-    missing = [a for a in sorted(atoms) if norm(a) not in n_out]
+    missing = []
+    for a in sorted(atoms, key=str):
+        alts = tuple(a) if isinstance(a, frozenset) else (a,)
+        if not any(norm(x) in n_out for x in alts):
+            missing.append("/".join(alts))
     return not missing, missing
 
 
