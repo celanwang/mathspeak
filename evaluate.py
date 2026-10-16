@@ -44,8 +44,17 @@ def normalize(s: str) -> str:
 
 
 def first_line(s: str) -> str:
-    """PT 基座不会主动收尾，只取第一行参与比对。"""
-    return s.split("\n")[0].strip()
+    """PT/LoRA 输出统一后处理：截断特殊 token 与换行后的内容。"""
+    s = s.split("<|")[0]
+    s = s.split("\n")[0]
+    return s.strip()
+
+
+def clean_output(s: str) -> str:
+    """去掉 chat 模板残留的角色前缀（三组统一处理，不影响公平性）。"""
+    s = first_line(s)
+    s = re.sub(r"^(Assistant|助手|输出|答案|改写后的整句)\s*[:：]\s*", "", s)
+    return s.strip()
 
 
 def load_jsonl(path: str | Path) -> list[dict]:
@@ -86,7 +95,7 @@ def run_group(model, tokenizer, rows: list[dict], prefix: str = "") -> list[str]
             sampler=sampler,
             verbose=False,
         )
-        outs.append(first_line(text))
+        outs.append(clean_output(text))
     return outs
 
 
