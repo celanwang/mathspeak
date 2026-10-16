@@ -644,73 +644,79 @@ def speech_of(node: Node) -> str:
         if node.kind != "seq":
             return to_speech(node)
         return _seq_speech(node.val, attach=True)
-    if node.kind in _ATTACHABLE:
+    if node.kind in _ATTACHABLE or (
+            node.kind == "num" and (node.sup is not None or node.sub is not None)):
         return _attach_scripts(to_speech(node), node)
     return to_speech(node)
 
 
 # ---------------- 公式定位 ----------------
 
-def _consume_formula(text: str, start: int) -> int:
+def _balanced(text: str, i: int) -> int:
+    """消费从 i 开始的配对组（{} 或 []），返回组后位置。"""
+    op = text[i]
+    cl = "}" if op == "{" else "]"
+    d = 1
+    i += 1
+    while i < len(text) and d:
+        if text[i] == op:
+            d += 1
+        elif text[i] == cl:
+            d -= 1
+        i += 1
+    return i
+
+
+def _extend(text: str, i: int) -> int:
+    """从已完成单元（命令/闭组）的位置继续吃：脚本、紧邻参数组、运算符延续。"""
     n = len(text)
-    i = start
-    depth = 0
-    while i < n:
-        c = text[i]
-        if c == "\\":
-            m = re.match(r"\\([a-zA-Z]+)", text[i:])
-            if not m:
-                if i + 1 < n and text[i + 1] in ",;:!% ":
-                    i += 2
-                    continue
+    while True:
+        k = i
+        while k < n and text[k] in "^_":
+            k += 1
+            if k < n and text[k] in "{[":
+                k = _balanced(text, k)
+            else:
+                k += 1
+        if k > i:
+            i = k
+        if i < n and text[i] in "{[":
+            i = _balanced(text, i)
+            continue
+        break
+    while i < n and text[i] in " +-*/=<>&|":
+        i += 1
+        if i < n and text[i] == "\\":
+            sub = _consume_formula(text, i)
+            if sub == i:
                 break
-            if m.group(1) == "begin":
-                env_end = text.find("\\end", i)
-                if env_end == -1:
-                    return start
-                close = text.find("}", env_end)
-                if close == -1:
-                    return start
-                return close + 1
-            i += len(m.group(0))
-            continue
-        if c == "{":
-            depth += 1
-        elif c == "}":
-            depth -= 1
-            if depth == 0:
-                k = i + 1
-                while k < n and text[k] in "^_":
-                    k += 1
-                    if k < n and text[k] == "{":
-                        d = 1
-                        k += 1
-                        while k < n and d:
-                            if text[k] == "{":
-                                d += 1
-                            elif text[k] == "}":
-                                d -= 1
-                            k += 1
-                    else:
-                        k += 1
-                i = k
-                while i < n and text[i] in " +-*/=<>&|":
-                    i += 1
-                    if i < n and text[i] == "\\":
-                        sub = _consume_formula(text, i)
-                        if sub == i:
-                            break
-                        i = sub
-                    elif i < n and (text[i].isalnum() or text[i] == "."):
-                        while i < n and (text[i].isalnum() or text[i] in " ."):
-                            i += 1
-                return i
-        elif depth > 0:
-            i += 1
-            continue
-        else:
-            break
-    return start
+            i = sub
+        elif i < n and (text[i].isalnum() or text[i] == "."):
+            while i < n and (text[i].isalnum() or text[i] in " ."):
+                i += 1
+    return i
+
+
+def _consume_formula(text: str, start: int) -> int:
+    """从反斜杠开始尽量消费公式，返回结束位置（失败返回 start）。"""
+    n = len(text)
+    if start >= n or text[start] != "\\":
+        return start
+    m = re.match(r"\\([a-zA-Z]+)", text[start:])
+    if not m:
+        if start + 1 < n and text[start + 1] in ",;:!% ":
+            return start + 2
+        return start
+    name = m.group(1)
+    if name in SPACING_CMDS:
+        return start
+    if name == "begin":
+        env_end = text.find("\\end", start)
+        if env_end == -1:
+            return start
+        close = text.find("}", env_end)
+        return start if close == -1 else close + 1
+    return _extend(text, start + len(m.group(0)))
 
 
 def find_formulas(text: str) -> list[tuple[int, int, str]]:
@@ -722,7 +728,11 @@ def find_formulas(text: str) -> list[tuple[int, int, str]]:
         if c == "\\":
             j = _consume_formula(text, i)
             if j > i:
-                spans.append((i, j, text[i:j]))
+                raw = text[i:j]
+                if raw in ("\\,", "\\;", "\\:", "\\!", "\\ "):
+                    i = j
+                    continue
+                spans.append((i, j, raw))
                 i = j
                 continue
         elif c == "$":
@@ -733,7 +743,7 @@ def find_formulas(text: str) -> list[tuple[int, int, str]]:
                 continue
         elif c.isascii() and c.isalnum():
             j = i
-            while j < n and (text[j].isascii() and (text[j].isalnum() or text[j] in " ^_{}().,+-*/=<>!")):
+            while j < n and (text[j].isascii() and (text[j].isalnum() or text[j] in " ^_{}().,+-*/=<>!\\%")):
                 j += 1
             run = text[i:j].strip()
             nxt = text[j] if j < n else ""
@@ -743,6 +753,8 @@ def find_formulas(text: str) -> list[tuple[int, int, str]]:
                             or re.search(r"\d\.\d", run)
                             or (" " in run and re.search(r"[=+*/<>]|\d", run))):
                         spans.append((i, j, run))
+                        i = j
+                        continue
         i += 1
     return spans
 
