@@ -789,20 +789,118 @@ def find_formulas(text: str) -> list[tuple[int, int, str]]:
 
 # ---------------- SSML 桥接 ----------------
 
+# 数学语境多音字词典：词 -> 拼音（数字调号，引擎方言可转 IPA/无声调）
+# 覆盖 K12 讲题高频歧义：量纲词、运算词、数学专属读音（行列式 háng 等）
 POLYPHONES = {
+    # 长
     "长度": "chang2 du4", "周长": "zhou1 chang2", "边长": "bian1 chang2",
-    "半径": "ban4 jing4", "增长": "zeng1 zhang3", "长方": "chang2 fang1",
-    "重量": "zhong4 liang4", "质量": "zhi4 liang4", "重复": "chong2 fu4",
-    "差值": "cha1 zhi2", "误差": "wu4 cha1", "相差": "xiang1 cha4",
-    "乘以": "cheng2 yi3", "乘积": "cheng2 ji1",
+    "长方": "chang2 fang1", "增长": "zeng1 zhang3", "长高": "zhang3 gao1",
+    # 重
+    "重量": "zhong4 liang4", "质量": "zhi4 liang4", "比重": "bi3 zhong4",
+    "重复": "chong2 fu4", "重新": "chong2 xin1", "重叠": "chong2 die2",
+    # 差
+    "差值": "cha1 zhi2", "误差": "wu4 cha1", "偏差": "pian1 cha1",
+    "相差": "xiang1 cha4", "差距": "cha4 ju4", "差劲": "cha4 jin4",
+    # 数
+    "数学": "shu4 xue2", "数字": "shu4 zi4", "数量": "shu4 liang4",
+    "数一数": "shu3 yi1 shu3", "数列": "shu4 lie4", "因数": "yin1 shu4",
+    "函数": "han2 shu4", "倒数": "dao4 shu4", "参数": "can1 shu4",
+    # 量
+    "测量": "ce4 liang2", "量一量": "liang2 yi1 liang2", "量角器": "liang2 jiao3 qi4",
+    # 角
+    "角度": "jiao3 du4", "三角": "san1 jiao3", "直角": "zhi2 jiao3",
+    "锐角": "rui4 jiao3", "钝角": "dun4 jiao3", "余角": "yu2 jiao3",
+    "补角": "bu3 jiao3", "对角": "dui4 jiao3", "转角": "zhuan3 jiao3",
+    # 率
+    "效率": "xiao4 lü4", "概率": "gai4 lü4", "频率": "pin2 lü4",
+    "圆周率": "yuan2 zhou1 lü4", "斜率": "xie2 lü4", "功率": "gong1 lü4",
+    # 分
+    "分数": "fen1 shu4", "分母": "fen1 mu3", "分子": "fen1 zi3",
+    "约分": "yue1 fen1", "通分": "tong1 fen1", "分外": "fen4 wai4",
+    # 和 / 解 / 乘
+    "求和": "qiu2 he2", "解得": "jie3 de2", "解法": "jie3 fa3",
+    "解题": "jie3 ti2", "解方程": "jie3 fang1 cheng2", "乘以": "cheng2 yi3",
+    "乘积": "cheng2 ji1",
+    # 行（数学专属：行列式读 háng）
+    "行列式": "hang2 lie4 shi4", "行列": "hang2 lie4", "矩阵行": "ju3 zhen4 hang2",
+    "一行": "yi1 hang2", "两行": "liang3 hang2",
+    # 似 / 转（数学专属）
+    "相似": "xiang1 si4", "相似形": "xiang1 si4 xing2", "旋转": "xuan2 zhuan3",
+    "转动": "zhuan3 dong4", "自转": "zi4 zhuan4",
+    # 常见高频
+    "因为": "yin1 wei4", "作为": "zuo4 wei2", "成为": "cheng2 wei2",
+    "为什么": "wei4 shen2 me5", "着急": "zhao2 ji2", "看着": "kan4 zhe5",
+    "了解": "liao3 jie3", "音乐": "yin1 yue4", "快乐": "kuai4 le4",
+    "中间": "zhong1 jian1", "中奖": "zhong4 jiang3", "都是": "dou1 shi4",
+    "首都": "shou3 du1", "只要": "zhi3 yao4", "一只": "yi4 zhi1",
+    "间隔": "jian4 ge2", "中间距": "zhong1 jian1 ju4", "切点": "qie1 dian3",
+    "密切": "mi4 qie4", "一切": "yi2 qie4", "当时": "dang1 shi2",
+    "上当": "shang4 dang4", "好人": "hao3 ren2", "好奇": "hao4 qi2",
+    "还有": "hai2 you3", "归还": "gui1 huan2", "假如": "jia3 ru2",
+    "假期": "jia4 qi1", "空间": "kong1 jian1", "空白": "kong4 bai2",
+    "更加": "geng4 jia1", "更正": "geng1 zheng4", "银行": "yin2 hang2",
+    "便宜": "pian2 yi2", "方便": "fang1 bian4", "觉得": "jue2 de5",
+    "睡觉": "shui4 jiao4", "要求": "yao1 qiu2", "需要": "xu1 yao4",
+    "发现": "fa1 xian4", "降低": "jiang4 di1", "投降": "tou2 xiang2",
+    "强大": "qiang2 da4", "勉强": "mian3 qiang3", "冠军": "guan4 jun1",
+    "皇冠": "huang2 guan1", "背诵": "bei4 song4", "背包": "bei1 bao1",
+    "调节": "tiao2 jie2", "调查": "diao4 cha2", "传播": "chuan2 bo1",
+    "传记": "zhuan4 ji4", "多少": "duo1 shao3", "少年": "shao4 nian2",
 }
 
 
-def annotate_polyphones(text: str) -> str:
+def polyphone_hits(text: str) -> list[tuple[str, str, int]]:
+    """返回 [(词, 拼音, 位置)]，长词优先匹配，用于密度统计与 badcase 归因。"""
+    hits = []
+    occupied = [False] * len(text)
     for w in sorted(POLYPHONES, key=len, reverse=True):
-        if w in text:
-            text = text.replace(w, f'<sub alias="{POLYPHONES[w]}">{w}</sub>')
-    return text
+        start = 0
+        while True:
+            pos = text.find(w, start)
+            if pos == -1:
+                break
+            if not any(occupied[pos:pos + len(w)]):
+                hits.append((w, POLYPHONES[w], pos))
+                for k in range(pos, pos + len(w)):
+                    occupied[k] = True
+            start = pos + 1
+    return sorted(hits, key=lambda h: h[2])
+
+
+def polyphone_density(texts: list[str]) -> dict:
+    """多音字密度统计：量化讲题文本的读音歧义规模，指导词典与标注策略。"""
+    from collections import Counter
+    total_chars = sum(len(t) for t in texts)
+    hits = Counter()
+    n_hit = 0
+    for t in texts:
+        for w, _, _ in polyphone_hits(t):
+            hits[w] += 1
+            n_hit += 1
+    return {
+        "texts": len(texts),
+        "chars": total_chars,
+        "hits": n_hit,
+        "per_100_chars": n_hit / max(1, total_chars) * 100,
+        "top": hits.most_common(20),
+    }
+
+
+def annotate_polyphones(text: str) -> str:
+    """对多音字词输出 <sub alias> 标注（引擎无关写法）。
+
+    基于 polyphone_hits 单次扫描，保证长词命中后内部短词不重复标注。
+    """
+    hits = polyphone_hits(text)
+    if not hits:
+        return text
+    out, cursor = [], 0
+    for w, py, pos in hits:
+        out.append(text[cursor:pos])
+        out.append(f'<sub alias="{py}">{w}</sub>')
+        cursor = pos + len(w)
+    out.append(text[cursor:])
+    return "".join(out)
 
 
 def to_ssml(pairs: list[tuple[str, str]], wrap: bool = True) -> str:
@@ -843,3 +941,15 @@ if __name__ == "__main__":
             bad += 1
             print(f"{s}\n  !! {e}")
     print(f"\n解析失败: {bad}/{len(samples)}")
+
+    # 多音字标注端到端演示 + 密度统计
+    demo = ("因为三角形的周长等于三边长度之和，所以要先测量每条边的长度，"
+            "再求和。注意分子分母的读法，别读错，否则误差会很大。"
+            "行列式要按行来读，旋转图形时要观察角度的变化。")
+    print("\n--- 多音字标注（通道 A 端到端） ---")
+    print(demo)
+    print(annotate_polyphones(demo))
+    print("命中:", [(w, p) for w, p, _ in polyphone_hits(demo)])
+    stats = polyphone_density([demo])
+    print(f"密度: {stats['hits']} 处 / {stats['chars']} 字 "
+          f"= 每百字 {stats['per_100_chars']:.1f} 处")

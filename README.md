@@ -60,6 +60,8 @@ export HF_ENDPOINT=https://hf-mirror.com
 ```
 generate_data.py    规则模板数据生成器（8 类公式 × 20 句式）
 latex_speech.py     朗读规范唯一事实源：解析器 + 朗读生成 + SSML 桥接
+                    （K12 数学多音字词典 70+ 词 + 密度统计，
+                    文本侧拼音标注消除读音歧义）
 stream_convert.py   流式增量转换器（乐观转换 + 回滚，87% 整句一致，p95 0.004ms）
 gen_ood_data.py     长尾 OOD 冻结基准（11 类，参考由规范引擎产出）
 distill.py          教师蒸馏管线（21B 生成 → 守恒硬检查 → 训练集）
